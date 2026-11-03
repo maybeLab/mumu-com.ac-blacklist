@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-29",
+  "local_tests": {
+    "run": 26,
+    "passed": 26,
+    "skipped": 0
+  },
+  "original_module_sources_unchanged": true,
+  "rebuild_hashes_identical": true,
+  "real_device_share_install_tested": false,
+  "windows_actual_machine_tested": false,
+  "reboot_autostart_tested": false,
+  "files": [
+    {
+      "path": "dist/mumu-ime-share.zip",
+      "bytes": 44435152,
+      "sha256": "2b4caf10cbe913f15ea3f2c6a1faae927d4d11c15ec8532b2e47c3b7d16ff596"
+    },
+    {
+      "path": "dist/MuMu-IME-Windows.zip",
+      "bytes": 44049231,
+      "sha256": "afe8a8775d5ecc456a73a497be3e8bf74857dd471f4e5d017ec50079954a03b5"
+    }
+  ]
+}

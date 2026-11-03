@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-03",
+  "change": "记录用户反馈：禁用原搜狗输入法影响模拟器内、UU 远程及 MuMu APP 远程的中文输入和输入法弹出；同步 ZIP 内说明。",
+  "issue_status": "已知未修复，来自用户反馈，本次未连接设备复测",
+  "checks": {
+    "module_executable_entries_unchanged": true,
+    "windows_executable_entries_unchanged": true,
+    "archive_integrity": true,
+    "bundled_notices_match_sources": true,
+    "bundled_module_matches_standalone": true,
+    "checksums_match": true
+  },
+  "tests": "本次为说明更新，只检查打包内容与校验值；未重跑历史模拟测试，未进行实机或远程输入验证。",
+  "previous_files": [
+    {
+      "path": "dist/mumu-ime-share.zip",
+      "sha256": "2b4caf10cbe913f15ea3f2c6a1faae927d4d11c15ec8532b2e47c3b7d16ff596"
+    },
+    {
+      "path": "dist/MuMu-IME-Windows.zip",
+      "sha256": "afe8a8775d5ecc456a73a497be3e8bf74857dd471f4e5d017ec50079954a03b5"
+    }
+  ],
+  "files": [
+    {
+      "path": "dist/mumu-ime-share.zip",
+      "bytes": 44435393,
+      "sha256": "cd77a142efbe6fdf969b06c7e9708bc192031a7850e1c1b325de733b340eb96d"
+    },
+    {
+      "path": "dist/MuMu-IME-Windows.zip",
+      "bytes": 44049956,
+      "sha256": "caf16ec7b19833cdd468ad948063a04ac9b4df34d2575d96c82080cec73bbf7b"
+    }
+  ]
+}

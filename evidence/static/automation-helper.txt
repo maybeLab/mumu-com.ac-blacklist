@@ -1,0 +1,74 @@
+CLASS Lcom/ime/input/a;
+ FIELD Lcom/ime/input/a;->d:Lcom/ime/input/a; flags=0xa
+ FIELD Lcom/ime/input/a;->a:Landroid/inputmethodservice/InputMethodService; flags=0x1
+ FIELD Lcom/ime/input/a;->b:Ljava/lang/String; flags=0x1
+ FIELD Lcom/ime/input/a;->c:Ljava/lang/String; flags=0x1
+ METHOD Lcom/ime/input/a;-><clinit>()V flags=0x10009 code=0x3c4df0
+ METHOD Lcom/ime/input/a;-><init>()V flags=0x10002 code=0x3c4e04
+  0x0 invoke Ljava/lang/Object;-><init>()V
+  0x8 field-ref Lcom/ime/input/a;->a:Landroid/inputmethodservice/InputMethodService;
+ METHOD Lcom/ime/input/a;->a()Lcom/ime/input/a; flags=0x9 code=0x3c4e24
+  0x0 field-ref Lcom/ime/input/a;->d:Lcom/ime/input/a;
+  0x8 type-ref Lcom/ime/input/a;
+  0xc invoke Lcom/ime/input/a;-><init>()V
+  0x12 field-ref Lcom/ime/input/a;->d:Lcom/ime/input/a;
+  0x16 field-ref Lcom/ime/input/a;->d:Lcom/ime/input/a;
+ METHOD Lcom/ime/input/a;->a(Landroid/inputmethodservice/InputMethodService;)V flags=0x2 code=0x3c4e50
+  0x0 type-ref Ljava/lang/StringBuilder;
+  0x4 const-string 'settings initInputMethod ims'
+  0x8 invoke Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+  0xe invoke Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
+  0x16 invoke Ljava/lang/Thread;->getName()Ljava/lang/String;
+  0x1e invoke Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  0x24 field-ref Lcom/ime/input/a;->a:Landroid/inputmethodservice/InputMethodService;
+ METHOD Lcom/ime/input/a;->a(Ljava/lang/String;)V flags=0x2 code=0x3c4e8c
+  0x0 type-ref Ljava/lang/StringBuilder;
+  0x4 const-string 'inputText: '
+  0x8 invoke Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+  0xe invoke Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  0x14 const-string ', name:'
+  0x18 invoke Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  0x1e invoke Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
+  0x26 invoke Ljava/lang/Thread;->getName()Ljava/lang/String;
+  0x2e invoke Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  0x34 field-ref Lcom/ime/input/a;->a:Landroid/inputmethodservice/InputMethodService;
+  0x3c invoke Landroid/inputmethodservice/InputMethodService;->getCurrentInputConnection()Landroid/view/inputmethod/InputConnection;
+  0x48 invoke Ljava/lang/String;->length()I
+  0x50 invoke Landroid/view/inputmethod/InputConnection;->commitText(Ljava/lang/CharSequence;I)Z
+ METHOD Lcom/ime/input/a;->b()V flags=0x2 code=0x3c4ef4
+  0x2 field-ref Lcom/ime/input/a;->a:Landroid/inputmethodservice/InputMethodService;
+ METHOD Lcom/ime/input/a;->b(Ljava/lang/String;)V flags=0x2 code=0x3c4f0c
+  0x0 field-ref Lcom/ime/input/a;->a:Landroid/inputmethodservice/InputMethodService;
+  0x8 invoke Landroid/inputmethodservice/InputMethodService;->switchInputMethod(Ljava/lang/String;)V
+ METHOD Lcom/ime/input/a;->c(Ljava/lang/String;)V flags=0x2 code=0x3c4f2c
+  0x0 field-ref Lcom/ime/input/a;->b:Ljava/lang/String;
+ METHOD Lcom/ime/input/a;->d(Ljava/lang/String;)V flags=0x2 code=0x3c4f44
+  0x0 field-ref Lcom/ime/input/a;->c:Ljava/lang/String;
+ METHOD Lcom/ime/input/a;->a(Z)V flags=0x11 code=0x3c4f5c
+  0x0 type-ref Ljava/lang/StringBuilder;
+  0x4 const-string 'settings cmdSwitchInput isDefault: '
+  0x8 invoke Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+  0xe invoke Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+  0x14 const-string ', name: '
+  0x18 invoke Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  0x1e invoke Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
+  0x26 invoke Ljava/lang/Thread;->getName()Ljava/lang/String;
+  0x2e invoke Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  0x34 field-ref Lcom/ime/input/a;->a:Landroid/inputmethodservice/InputMethodService;
+  0x3e invoke Lz2/gf;->OooO0O0()Z
+  0x4a type-ref Ljava/lang/StringBuilder;
+  0x4e const-string 'ime enable '
+  0x52 invoke Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+  0x58 field-ref Lcom/ime/input/a;->c:Ljava/lang/String;
+  0x5c invoke Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  0x62 invoke Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+  0x6a invoke Lz2/hg;->OooO00o(Ljava/lang/String;)Ljava/lang/String;
+  0x74 field-ref Lcom/ime/input/a;->b:Ljava/lang/String;
+  0x7a field-ref Lcom/ime/input/a;->c:Ljava/lang/String;
+  0x7e const-string 'settings put secure default_input_method '
+  0x82 invoke Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+  0x8a invoke Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+  0x92 invoke Lz2/hg;->OooO00o(Ljava/lang/String;)Ljava/lang/String;
+  0x9c invoke Ljava/lang/Thread;->sleep(J)V
+  0xa6 invoke Ljava/lang/InterruptedException;->printStackTrace()V
+DEX classes2.dex

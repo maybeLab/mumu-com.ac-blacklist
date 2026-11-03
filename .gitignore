@@ -1,0 +1,7 @@
+# Original device files and third-party binaries are kept locally for reproduction.
+/artifacts/
+/build/
+/dist/
+/windows/logs/
+__pycache__/
+.DS_Store

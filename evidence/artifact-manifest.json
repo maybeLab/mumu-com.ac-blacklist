@@ -1,0 +1,50 @@
+{
+  "device": "mumu15:5555",
+  "redaction": {
+    "date": "2026-11-03",
+    "device_is_alias": true,
+    "note": "设备主机名已替换为公开文档别名；系统文件、注入器和安装包的指纹保留原值。"
+  },
+  "capture_date": "2026-10-29",
+  "files": [
+    {
+      "path": "artifacts/original/framework.jar",
+      "source": "/system/framework/framework.jar",
+      "bytes": 41895578,
+      "sha256": "5a46d36ebaf9b8088dc24b3601e7365123b6b258126ef4477fa6524b566fe349"
+    },
+    {
+      "path": "artifacts/original/services.jar",
+      "source": "/system/framework/services.jar",
+      "bytes": 22053665,
+      "sha256": "7e5f6cab8298377d9ad6df029d14c5df62fa66c8f8b3815d099d4d1b456ef007"
+    },
+    {
+      "path": "artifacts/original/SettingsProvider.apk",
+      "source": "/system/priv-app/SettingsProvider/SettingsProvider.apk",
+      "bytes": 557364,
+      "sha256": "129a9c24ac8e3e0029eadeab3d0c5bb347ad84ae4822524d7fe89447ae4a6d77"
+    },
+    {
+      "path": "artifacts/bin/frida-inject",
+      "source": "https://github.com/frida/frida/releases/download/16.7.19/frida-inject-16.7.19-android-x86_64.xz",
+      "bytes": 114026552,
+      "sha256": "d4cf923a40b5cd59eec8ae8025d7a473365342bbfa347d946d713d45ab32305e"
+    },
+    {
+      "path": "artifacts/releases/mumu-ime-allow-com-ac-installed.zip",
+      "source": "Installed KernelSU archive, 2026-10-29",
+      "bytes": 44432008,
+      "sha256": "faf232348d4b19191c5c8e29988ae9c73f69a3d1cffda991069c415ca553f65e"
+    }
+  ],
+  "frida_download_xz_sha256": "5067656da28620d7016ff63b9149c75e9f08ffcc1fcf393d5adce9b4adf52026",
+  "observed_application": {
+    "package": "com.ac",
+    "versionCode": 2024092009,
+    "bytes": 78426850,
+    "sha256": "4ae72fec4dd23b0761a12b1f4054fb836d51045b8610561c1fca1d3fdfd519e5",
+    "apk_in_project": false,
+    "note": "APK not copied; hash identifies the version used for the private helper input test."
+  }
+}

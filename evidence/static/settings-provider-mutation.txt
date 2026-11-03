@@ -1,0 +1,84 @@
+CLASS Lcom/android/providers/settings/SettingsProvider;
+ FIELD Lcom/android/providers/settings/SettingsProvider;->ALL_COLUMNS:[Ljava/lang/String; flags=0x1a
+ FIELD Lcom/android/providers/settings/SettingsProvider;->CRITICAL_GLOBAL_SETTINGS:Ljava/util/Set; flags=0x1a
+ FIELD Lcom/android/providers/settings/SettingsProvider;->CRITICAL_SECURE_SETTINGS:Ljava/util/Set; flags=0x1a
+ FIELD Lcom/android/providers/settings/SettingsProvider;->LEGACY_SQL_COLUMNS:[Ljava/lang/String; flags=0x1a
+ FIELD Lcom/android/providers/settings/SettingsProvider;->NULL_SETTING_BUNDLE:Landroid/os/Bundle; flags=0x1a
+ FIELD Lcom/android/providers/settings/SettingsProvider;->OVERLAY_ALLOWED_GLOBAL_INSTANT_APP_SETTINGS:Ljava/util/Set; flags=0x1a
+ FIELD Lcom/android/providers/settings/SettingsProvider;->OVERLAY_ALLOWED_SECURE_INSTANT_APP_SETTINGS:Ljava/util/Set; flags=0x1a
+ FIELD Lcom/android/providers/settings/SettingsProvider;->OVERLAY_ALLOWED_SYSTEM_INSTANT_APP_SETTINGS:Ljava/util/Set; flags=0x1a
+ FIELD Lcom/android/providers/settings/SettingsProvider;->REMOVED_LEGACY_TABLES:Ljava/util/Set; flags=0x1a
+ FIELD Lcom/android/providers/settings/SettingsProvider;->sAllGlobalSettings:Ljava/util/Set; flags=0x1a
+ FIELD Lcom/android/providers/settings/SettingsProvider;->sAllSecureSettings:Ljava/util/Set; flags=0x1a
+ FIELD Lcom/android/providers/settings/SettingsProvider;->sAllSystemSettings:Ljava/util/Set; flags=0x1a
+ FIELD Lcom/android/providers/settings/SettingsProvider;->sDeviceConfigAllowlistedNamespaces:Ljava/util/Set; flags=0x1a
+ FIELD Lcom/android/providers/settings/SettingsProvider;->sGlobalMovedToSecureSettings:Ljava/util/Set; flags=0x18
+ FIELD Lcom/android/providers/settings/SettingsProvider;->sGlobalMovedToSystemSettings:Ljava/util/Set; flags=0x18
+ FIELD Lcom/android/providers/settings/SettingsProvider;->sReadableGlobalSettings:Ljava/util/Set; flags=0x1a
+ FIELD Lcom/android/providers/settings/SettingsProvider;->sReadableGlobalSettingsWithMaxTargetSdk:Landroid/util/ArrayMap; flags=0x1a
+ FIELD Lcom/android/providers/settings/SettingsProvider;->sReadableSecureSettings:Ljava/util/Set; flags=0x1a
+ FIELD Lcom/android/providers/settings/SettingsProvider;->sReadableSecureSettingsWithMaxTargetSdk:Landroid/util/ArrayMap; flags=0x1a
+ FIELD Lcom/android/providers/settings/SettingsProvider;->sReadableSystemSettings:Ljava/util/Set; flags=0x1a
+ FIELD Lcom/android/providers/settings/SettingsProvider;->sReadableSystemSettingsWithMaxTargetSdk:Landroid/util/ArrayMap; flags=0x1a
+ FIELD Lcom/android/providers/settings/SettingsProvider;->sSecureCloneToManagedSettings:Ljava/util/Set; flags=0x1a
+ FIELD Lcom/android/providers/settings/SettingsProvider;->sSecureMovedToGlobalSettings:Ljava/util/Set; flags=0x18
+ FIELD Lcom/android/providers/settings/SettingsProvider;->sSystemCloneFromParentOnDependency:Ljava/util/Map; flags=0x19
+ FIELD Lcom/android/providers/settings/SettingsProvider;->sSystemCloneToManagedSettings:Ljava/util/Set; flags=0x1a
+ FIELD Lcom/android/providers/settings/SettingsProvider;->sSystemMovedToGlobalSettings:Ljava/util/Set; flags=0x18
+ FIELD Lcom/android/providers/settings/SettingsProvider;->sSystemMovedToSecureSettings:Ljava/util/Set; flags=0x18
+ FIELD Lcom/android/providers/settings/SettingsProvider;->mConfigMonitorCallback:Landroid/os/RemoteCallback; flags=0x2
+ FIELD Lcom/android/providers/settings/SettingsProvider;->mHandler:Landroid/os/Handler; flags=0x2
+ FIELD Lcom/android/providers/settings/SettingsProvider;->mHandlerThread:Landroid/os/HandlerThread; flags=0x2
+ FIELD Lcom/android/providers/settings/SettingsProvider;->mLock:Ljava/lang/Object; flags=0x12
+ FIELD Lcom/android/providers/settings/SettingsProvider;->mPackageManager:Landroid/content/pm/IPackageManager; flags=0x42
+ FIELD Lcom/android/providers/settings/SettingsProvider;->mSettingsRegistry:Lcom/android/providers/settings/SettingsProvider$SettingsRegistry; flags=0x2
+ FIELD Lcom/android/providers/settings/SettingsProvider;->mSyncConfigDisabledUntilReboot:Z flags=0x2
+ FIELD Lcom/android/providers/settings/SettingsProvider;->mSysConfigManager:Landroid/os/SystemConfigManager; flags=0x42
+ FIELD Lcom/android/providers/settings/SettingsProvider;->mUserManager:Landroid/os/UserManager; flags=0x42
+ METHOD Lcom/android/providers/settings/SettingsProvider;->mutateSecureSetting(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZIIZI)Z flags=0x2 code=0x2c454
+  0x1a invoke Lcom/android/providers/settings/SettingsProvider;->mutateSecureSetting(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZIIZIZ)Z
+ METHOD Lcom/android/providers/settings/SettingsProvider;->mutateSecureSetting(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZIIZIZ)Z flags=0x2 code=0x2c488
+  0x8 const-string 'android.permission.WRITE_SECURE_SETTINGS'
+  0xc type-ref [Ljava/lang/String;
+  0x14 invoke Lcom/android/providers/settings/SettingsProvider;->enforceHasAtLeastOnePermission([Ljava/lang/String;)V
+  0x1a const-string 'default_input_method'
+  0x1e invoke Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+  0x2c invoke Landroid/app/MuMuImeBlackList;->isImeBlacklisted(Ljava/lang/String;)Z
+  0x38 const-string 'MuMuIMETrace'
+  0x3c type-ref Ljava/lang/StringBuilder;
+  0x40 invoke Ljava/lang/StringBuilder;-><init>()V
+  0x46 const-string 'BLOCK blacklisted default_input_method: uid='
+  0x4a invoke Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  0x50 invoke Landroid/os/Binder;->getCallingUid()I
+  0x58 invoke Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+  0x5e const-string ' pid='
+  0x62 invoke Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  0x68 invoke Landroid/os/Binder;->getCallingPid()I
+  0x70 invoke Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+  0x76 const-string ' pkg='
+  0x7a invoke Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  0x80 invoke Landroid/content/ContentProvider;->getCallingPackage()Ljava/lang/String;
+  0x88 invoke Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  0x8e const-string ' value='
+  0x92 invoke Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  0x98 invoke Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  0x9e invoke Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+  0xa6 invoke Landroid/util/Slog;->w(Ljava/lang/String;Ljava/lang/String;)I
+  0xae invoke Lcom/android/providers/settings/SettingsProvider;->resolveCallingUserIdEnforcingPermissions(I)I
+  0xb6 invoke Landroid/os/Binder;->getCallingUid()I
+  0xbe invoke Lcom/android/providers/settings/SettingsProvider;->isSettingRestrictedForUser(Ljava/lang/String;ILjava/lang/String;I)Z
+  0xcc invoke Lcom/android/providers/settings/SettingsProvider;->resolveOwningUserIdForSecureSetting(ILjava/lang/String;)I
+  0xda invoke Landroid/content/ContentProvider;->getCallingPackage()Ljava/lang/String;
+  0xe2 field-ref Lcom/android/providers/settings/SettingsProvider;->mLock:Ljava/lang/Object;
+  0x108 field-ref Lcom/android/providers/settings/SettingsProvider;->mSettingsRegistry:Lcom/android/providers/settings/SettingsProvider$SettingsRegistry;
+  0x118 invoke Lcom/android/providers/settings/SettingsProvider$SettingsRegistry;->resetSettingsLocked(IILjava/lang/String;ILjava/lang/String;)Z
+  0x124 field-ref Lcom/android/providers/settings/SettingsProvider;->mSettingsRegistry:Lcom/android/providers/settings/SettingsProvider$SettingsRegistry;
+  0x128 field-ref Lcom/android/providers/settings/SettingsProvider;->CRITICAL_SECURE_SETTINGS:Ljava/util/Set;
+  0x140 invoke Lcom/android/providers/settings/SettingsProvider$SettingsRegistry;->updateSettingLocked(IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;ZLjava/util/Set;)Z
+  0x14e field-ref Lcom/android/providers/settings/SettingsProvider;->mSettingsRegistry:Lcom/android/providers/settings/SettingsProvider$SettingsRegistry;
+  0x152 field-ref Lcom/android/providers/settings/SettingsProvider;->CRITICAL_SECURE_SETTINGS:Ljava/util/Set;
+  0x15e invoke Lcom/android/providers/settings/SettingsProvider$SettingsRegistry;->deleteSettingLocked(IILjava/lang/String;ZLjava/util/Set;)Z
+  0x16c field-ref Lcom/android/providers/settings/SettingsProvider;->mSettingsRegistry:Lcom/android/providers/settings/SettingsProvider$SettingsRegistry;
+  0x170 field-ref Lcom/android/providers/settings/SettingsProvider;->CRITICAL_SECURE_SETTINGS:Ljava/util/Set;
+  0x18e invoke Lcom/android/providers/settings/SettingsProvider$SettingsRegistry;->insertSettingLocked(IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;ZLjava/util/Set;Z)Z
+DEX classes.dex

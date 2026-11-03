@@ -1,0 +1,31 @@
+test_failed_read_does_not_commit_backup (__main__.BackupTests.test_failed_read_does_not_commit_backup) ... ok
+test_incomplete_backup_is_rejected (__main__.BackupTests.test_incomplete_backup_is_rejected) ... ok
+test_missing_backup_already_fixed_is_rejected (__main__.BackupTests.test_missing_backup_already_fixed_is_rejected) ... ok
+test_repeated_capture_keeps_first_baseline (__main__.BackupTests.test_repeated_capture_keeps_first_baseline) ... ok
+test_restore_exact_configuration_and_null (__main__.BackupTests.test_restore_exact_configuration_and_null) ... ok
+test_restore_without_backup_does_not_change_settings (__main__.BackupTests.test_restore_without_backup_does_not_change_settings) ... ok
+test_install_accepts_target_with_another_enabled_ime (__main__.DeviceHelperTests.test_install_accepts_target_with_another_enabled_ime) ... ok
+test_legacy_module_without_backup_is_rejected (__main__.DeviceHelperTests.test_legacy_module_without_backup_is_rejected) ... ok
+test_restore_rejects_rollback_failure (__main__.DeviceHelperTests.test_restore_rejects_rollback_failure) ... ok
+test_restore_without_backup_is_rejected (__main__.DeviceHelperTests.test_restore_without_backup_is_rejected) ... ok
+test_compatibility_and_root_errors_block_before_upload (__main__.HostTests.test_compatibility_and_root_errors_block_before_upload) ... ok
+test_device_failures_not_reported_as_success (__main__.HostTests.test_device_failures_not_reported_as_success) ... ok
+test_install_with_paths_containing_spaces_and_unicode (__main__.HostTests.test_install_with_paths_containing_spaces_and_unicode) ... ok
+test_modified_helper_rejected_before_upload (__main__.HostTests.test_modified_helper_rejected_before_upload) ... ok
+test_multiple_devices_can_be_selected_explicitly (__main__.HostTests.test_multiple_devices_can_be_selected_explicitly) ... ok
+test_native_quoting_roundtrip_and_timeout (__main__.HostTests.test_native_quoting_roundtrip_and_timeout) ... ok
+test_restore_only_uploads_helper (__main__.HostTests.test_restore_only_uploads_helper) ... ok
+test_status_is_read_only (__main__.HostTests.test_status_is_read_only) ... ok
+test_su_root_install (__main__.HostTests.test_su_root_install) ... ok
+test_integrity_provenance_and_text_encodings (__main__.PackageTests.test_integrity_provenance_and_text_encodings) ... ok
+test_framework_changed_still_restores_settings_without_injection (__main__.RollbackTests.test_framework_changed_still_restores_settings_without_injection) ... ok
+test_injection_failure_is_reported_after_settings_restoration (__main__.RollbackTests.test_injection_failure_is_reported_after_settings_restoration) ... ok
+test_restores_settings_disables_module_and_requires_marker (__main__.RollbackTests.test_restores_settings_disables_module_and_requires_marker) ... ok
+test_framework_mismatch_leaves_settings_unchanged (__main__.RuntimeTests.test_framework_mismatch_leaves_settings_unchanged) ... ok
+test_injection_failure_does_not_switch_input_method (__main__.RuntimeTests.test_injection_failure_does_not_switch_input_method) ... ok
+test_service_selects_target_preserves_other_imes (__main__.RuntimeTests.test_service_selects_target_preserves_other_imes) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 30.399s
+
+OK

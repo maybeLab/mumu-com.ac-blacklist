@@ -1,0 +1,6 @@
+Thu Oct 29 13:40:18 CST 2026
+MUMU_IME_FIXED {"pid":843,"changes":[{"field":"sImeClasses","value":"com.ime.input.InputKb","removed":false},{"field":"sCertSha256","value":"9b200e7758e811605c957322c6865bb34989e79b363ad39895c7e4ef40976a96","removed":false}],"blocked":false}
+Input method com.ac/com.ime.input.InputKb: already enabled for user #0
+Input method com.ac/com.ime.input.InputKb selected for user #0
+Input method com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME: already disabled for user #0
+SUCCESS: automation IME selected.

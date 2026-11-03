@@ -1,0 +1,7 @@
+com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME
+com.ac/com.ime.input.InputKb:com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME
+1802354156
+com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME;1802354156:com.ac/com.ime.input.InputKb;-1
+1
+package:com.android.bluetooth
+package:com.tencent.mm

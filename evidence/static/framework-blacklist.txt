@@ -1,0 +1,59 @@
+CLASS Landroid/app/MuMuImeBlackList;
+ FIELD Landroid/app/MuMuImeBlackList;->BLACKLISTED_CERT_SHA256:[Ljava/lang/String; flags=0x1a
+ FIELD Landroid/app/MuMuImeBlackList;->BLACKLISTED_IME_CLASSES:[Ljava/lang/String; flags=0x1a
+ FIELD Landroid/app/MuMuImeBlackList;->BLACKLISTED_PACKAGES:[Ljava/lang/String; flags=0x1a
+ FIELD Landroid/app/MuMuImeBlackList;->sCertSha256:Ljava/util/Set; flags=0x1a
+ FIELD Landroid/app/MuMuImeBlackList;->sImeClasses:Ljava/util/Set; flags=0x1a
+ FIELD Landroid/app/MuMuImeBlackList;->sPackages:Ljava/util/Set; flags=0x1a
+ METHOD Landroid/app/MuMuImeBlackList;-><clinit>()V flags=0x10008 code=0x273be4
+  0x0 const-string 'com.xyzywqn.wlq'
+  0x4 type-ref [Ljava/lang/String;
+  0xc field-ref Landroid/app/MuMuImeBlackList;->BLACKLISTED_PACKAGES:[Ljava/lang/String;
+  0x10 const-string 'com.ime.input.InputKb'
+  0x14 type-ref [Ljava/lang/String;
+  0x1c field-ref Landroid/app/MuMuImeBlackList;->BLACKLISTED_IME_CLASSES:[Ljava/lang/String;
+  0x20 const-string '9b200e7758e811605c957322c6865bb34989e79b363ad39895c7e4ef40976a96'
+  0x24 type-ref [Ljava/lang/String;
+  0x2c field-ref Landroid/app/MuMuImeBlackList;->BLACKLISTED_CERT_SHA256:[Ljava/lang/String;
+  0x30 type-ref Ljava/util/HashSet;
+  0x34 field-ref Landroid/app/MuMuImeBlackList;->BLACKLISTED_PACKAGES:[Ljava/lang/String;
+  0x38 invoke Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
+  0x40 invoke Ljava/util/HashSet;-><init>(Ljava/util/Collection;)V
+  0x46 field-ref Landroid/app/MuMuImeBlackList;->sPackages:Ljava/util/Set;
+  0x4a type-ref Ljava/util/HashSet;
+  0x4e field-ref Landroid/app/MuMuImeBlackList;->BLACKLISTED_IME_CLASSES:[Ljava/lang/String;
+  0x52 invoke Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
+  0x5a invoke Ljava/util/HashSet;-><init>(Ljava/util/Collection;)V
+  0x60 field-ref Landroid/app/MuMuImeBlackList;->sImeClasses:Ljava/util/Set;
+  0x64 type-ref Ljava/util/HashSet;
+  0x68 field-ref Landroid/app/MuMuImeBlackList;->BLACKLISTED_CERT_SHA256:[Ljava/lang/String;
+  0x6c invoke Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
+  0x74 invoke Ljava/util/HashSet;-><init>(Ljava/util/Collection;)V
+  0x7a field-ref Landroid/app/MuMuImeBlackList;->sCertSha256:Ljava/util/Set;
+ METHOD Landroid/app/MuMuImeBlackList;-><init>()V flags=0x10002 code=0x273c74
+  0x0 invoke Ljava/lang/Object;-><init>()V
+ METHOD Landroid/app/MuMuImeBlackList;->getBlacklistedCertificates()Ljava/util/List; flags=0x9 code=0x273bbc
+  0x0 type-ref Ljava/util/ArrayList;
+  0x4 field-ref Landroid/app/MuMuImeBlackList;->sCertSha256:Ljava/util/Set;
+  0x8 invoke Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+  0xe invoke Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
+ METHOD Landroid/app/MuMuImeBlackList;->isImeBlacklisted(Ljava/lang/String;)Z flags=0x9 code=0x273ac4
+  0x6 invoke Ljava/lang/String;->isEmpty()Z
+  0x18 invoke Ljava/lang/String;->indexOf(I)I
+  0x28 invoke Ljava/lang/String;->substring(II)Ljava/lang/String;
+  0x30 field-ref Landroid/app/MuMuImeBlackList;->sPackages:Ljava/util/Set;
+  0x34 invoke Ljava/util/Set;->contains(Ljava/lang/Object;)Z
+  0x4a invoke Ljava/lang/String;->substring(I)Ljava/lang/String;
+  0x52 invoke Ljava/lang/String;->isEmpty()Z
+  0x5e field-ref Landroid/app/MuMuImeBlackList;->sImeClasses:Ljava/util/Set;
+  0x62 invoke Ljava/util/Set;->contains(Ljava/lang/Object;)Z
+ METHOD Landroid/app/MuMuImeBlackList;->toHex([B)Ljava/lang/String; flags=0x9 code=0x273b48
+  0x4 const-string ''
+  0xa type-ref Ljava/lang/StringBuilder;
+  0x14 invoke Ljava/lang/StringBuilder;-><init>(I)V
+  0x32 invoke Ljava/lang/Character;->forDigit(II)C
+  0x3a invoke Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+  0x44 invoke Ljava/lang/Character;->forDigit(II)C
+  0x4c invoke Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+  0x58 invoke Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+DEX classes.dex

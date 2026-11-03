@@ -1,0 +1,35 @@
+CLASS Landroid/app/MuMuImeBlackList;
+ METHOD Landroid/app/MuMuImeBlackList;-><clinit> flags 0x10008 code 0x273be4
+  possible-string 0x0 'com.xyzywqn.wlq'
+  possible-string 0x10 'com.ime.input.InputKb'
+  possible-string 0x20 '9b200e7758e811605c957322c6865bb34989e79b363ad39895c7e4ef40976a96'
+  possible-call 0x38 Ljava/util/Arrays;->asList
+  possible-call 0x3a Landroid/INemuInit$Default;->asBinder
+  possible-call 0x40 Ljava/util/HashSet;-><init>
+  possible-call 0x52 Ljava/util/Arrays;->asList
+  possible-call 0x54 Landroid/INemuInit$Default;->asBinder
+  possible-call 0x5a Ljava/util/HashSet;-><init>
+  possible-call 0x6c Ljava/util/Arrays;->asList
+  possible-call 0x6e Landroid/INemuInit$Default;->asBinder
+  possible-call 0x74 Ljava/util/HashSet;-><init>
+ METHOD Landroid/app/MuMuImeBlackList;-><init> flags 0x10002 code 0x273c74
+  possible-call 0x0 Ljava/lang/Object;-><init>
+ METHOD Landroid/app/MuMuImeBlackList;->getBlacklistedCertificates flags 0x9 code 0x273bbc
+  possible-call 0x8 Ljava/util/ArrayList;-><init>
+  possible-call 0xe Ljava/util/Collections;->unmodifiableList
+ METHOD Landroid/app/MuMuImeBlackList;->isImeBlacklisted flags 0x9 code 0x273ac4
+  possible-call 0x6 Ljava/lang/String;->isEmpty
+  possible-call 0x18 Ljava/lang/String;->indexOf
+  possible-call 0x28 Ljava/lang/String;->substring
+  possible-call 0x34 Ljava/util/Set;->contains
+  possible-call 0x4a Ljava/lang/String;->substring
+  possible-call 0x52 Ljava/lang/String;->isEmpty
+  possible-call 0x62 Ljava/util/Set;->contains
+ METHOD Landroid/app/MuMuImeBlackList;->toHex flags 0x9 code 0x273b48
+  possible-string 0x4 ''
+  possible-call 0x14 Ljava/lang/StringBuilder;-><init>
+  possible-call 0x32 Ljava/lang/Character;->forDigit
+  possible-call 0x3a Ljava/lang/StringBuilder;->append
+  possible-call 0x44 Ljava/lang/Character;->forDigit
+  possible-call 0x4c Ljava/lang/StringBuilder;->append
+  possible-call 0x58 Ljava/lang/StringBuilder;->toString

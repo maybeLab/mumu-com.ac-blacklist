@@ -1,0 +1,6 @@
+id=mumu_ime_allow_com_ac
+name=MuMu 按键精灵输入法修复
+version=1.0
+versionCode=1
+author=Local device repair
+description=为此设备的 MuMu 6.8.8 Android 15 在内存中解除按键精灵输入法限制。保留系统文件，包含版本校验和回退脚本。

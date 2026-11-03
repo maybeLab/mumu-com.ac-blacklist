@@ -1,0 +1,9 @@
+    authority=mms
+  * ContentProviderRecord{4569a4a u0 com.android.providers.settings/.SettingsProvider}
+    package=com.android.providers.settings process=system
+    proc=ProcessRecord{3c60b97 843:system/1000}
+    uid=1000 provider=android.content.ContentProvider$Transport@fd16e0
+    singleton=true
+    authority=settings
+    isSyncable=false multiprocess=false initOrder=100
+    Connections:

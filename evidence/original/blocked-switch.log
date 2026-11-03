@@ -1,0 +1,2 @@
+W/MuMuIMETrace(  843): ime set BLOCKED: blacklisted ime=com.ac/com.ime.input.InputKb userId=0 uid=0 pid=45958
+W/MuMuIMETrace(  843): BLOCK blacklisted default_input_method: uid=0 pid=46024 pkg=root value=com.ac/com.ime.input.InputKb

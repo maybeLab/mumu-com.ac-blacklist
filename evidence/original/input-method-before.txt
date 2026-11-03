@@ -1,0 +1,1081 @@
+Input Method Manager Service state:
+  mSystemReady=true
+  mInteractive=true
+  mConcurrentMultiUserModeEnabled=false
+  mCurrentImeUserId=0
+  mStylusIds=
+  mMenuControllerNew:
+    isShowing: false
+  mClientController:
+    ClientState{5237f9f mUid=1000 mPid=45405 mSelfReportedDisplayId=0}:
+      client=com.android.server.inputmethod.IInputMethodClientInvoker@a6e5eb0
+      fallbackInputConnection=com.android.internal.inputmethod.IRemoteInputConnection$Stub$Proxy@df82129
+      sessionRequested=false
+      sessionRequestedForAccessibility=true
+      curSession=SessionState{uid=1000 pid=45405 method=b76ccae session=865a4f channel=ClientState{5237f9f mUid=1000 mPid=45405 mSelfReportedDisplayId=0} userId=0}
+      selfReportedDisplayId=0
+      uid=1000
+      pid=45405
+    ClientState{e55d65f mUid=10021 mPid=2740 mSelfReportedDisplayId=0}:
+      client=com.android.server.inputmethod.IInputMethodClientInvoker@d2b5dc
+      fallbackInputConnection=com.android.internal.inputmethod.IRemoteInputConnection$Stub$Proxy@148a6e5
+      sessionRequested=false
+      sessionRequestedForAccessibility=false
+      curSession=SessionState{uid=10021 pid=2740 method=b76ccae session=8e705ba channel=ClientState{e55d65f mUid=10021 mPid=2740 mSelfReportedDisplayId=0} userId=0}
+      selfReportedDisplayId=0
+      uid=10021
+      pid=2740
+    ClientState{fed1b08 mUid=10042 mPid=41925 mSelfReportedDisplayId=0}:
+      client=com.android.server.inputmethod.IInputMethodClientInvoker@5f84c6b
+      fallbackInputConnection=com.android.internal.inputmethod.IRemoteInputConnection$Stub$Proxy@7c353c8
+      sessionRequested=false
+      sessionRequestedForAccessibility=false
+      curSession=SessionState{uid=10042 pid=41925 method=b76ccae session=661cc61 channel=ClientState{fed1b08 mUid=10042 mPid=41925 mSelfReportedDisplayId=0} userId=0}
+      selfReportedDisplayId=0
+      uid=10042
+      pid=41925
+    ClientState{7efc386 mUid=1000 mPid=45739 mSelfReportedDisplayId=0}:
+      client=com.android.server.inputmethod.IInputMethodClientInvoker@e4d4447
+      fallbackInputConnection=com.android.internal.inputmethod.IRemoteInputConnection$Stub$Proxy@79de474
+      sessionRequested=false
+      sessionRequestedForAccessibility=false
+      curSession=null
+      selfReportedDisplayId=0
+      uid=1000
+      pid=45739
+    ClientState{7fb4b85 mUid=10021 mPid=2882 mSelfReportedDisplayId=0}:
+      client=com.android.server.inputmethod.IInputMethodClientInvoker@f8dcd9d
+      fallbackInputConnection=com.android.internal.inputmethod.IRemoteInputConnection$Stub$Proxy@8749212
+      sessionRequested=false
+      sessionRequestedForAccessibility=false
+      curSession=SessionState{uid=10021 pid=2882 method=b76ccae session=a0fdde3 channel=ClientState{7fb4b85 mUid=10021 mPid=2882 mSelfReportedDisplayId=0} userId=0}
+      selfReportedDisplayId=0
+      uid=10021
+      pid=2882
+    ClientState{35b15fd mUid=10036 mPid=1076 mSelfReportedDisplayId=0}:
+      client=com.android.server.inputmethod.IInputMethodClientInvoker@eeed3e0
+      fallbackInputConnection=com.android.internal.inputmethod.IRemoteInputConnection$Stub$Proxy@f7ea699
+      sessionRequested=false
+      sessionRequestedForAccessibility=false
+      curSession=SessionState{uid=10036 pid=1076 method=b76ccae session=305bd5e channel=ClientState{35b15fd mUid=10036 mPid=1076 mSelfReportedDisplayId=0} userId=0}
+      selfReportedDisplayId=0
+      uid=10036
+      pid=1076
+    ClientState{dd8753f mUid=10027 mPid=1117 mSelfReportedDisplayId=0}:
+      client=com.android.server.inputmethod.IInputMethodClientInvoker@69d4e0c
+      fallbackInputConnection=com.android.internal.inputmethod.IRemoteInputConnection$Stub$Proxy@80a1355
+      sessionRequested=false
+      sessionRequestedForAccessibility=false
+      curSession=null
+      selfReportedDisplayId=0
+      uid=10027
+      pid=1117
+    ClientState{6ec516a mUid=1000 mPid=1622 mSelfReportedDisplayId=0}:
+      client=com.android.server.inputmethod.IInputMethodClientInvoker@569265b
+      fallbackInputConnection=com.android.internal.inputmethod.IRemoteInputConnection$Stub$Proxy@cd73ef8
+      sessionRequested=false
+      sessionRequestedForAccessibility=false
+      curSession=null
+      selfReportedDisplayId=0
+      uid=1000
+      pid=1622
+  mUserDataRepository:
+    userId=0
+      unlocked=true
+      hasMainConnection=true
+      isVisibleBound=false
+      boundToMethod=true
+      curClient=ClientState{5237f9f mUid=1000 mPid=45405 mSelfReportedDisplayId=0}
+      curEditorInfo:
+        inputType=0x0 imeOptions=0x0 privateImeOptions=null
+        actionLabel=null actionId=0
+        initialSelStart=-1 initialSelEnd=-1 initialToolType=0 initialCapsMode=0x0
+        hintText=null label=null
+        packageName=com.android.settings autofillId=0 fieldId=0 fieldName=null
+        hintLocales=null
+        supportedHandwritingGestureTypes=(none)
+        supportedHandwritingGesturePreviewTypes=(none)
+        isStylusHandwritingEnabled=false
+        writingToolsEnabled=true
+        contentMimeTypes=null
+      imeBindingState:
+        mFocusedWindow=android.os.BinderProxy@e36e9c9
+        mFocusedWindowSoftInputMode=STATE_UNSPECIFIED|ADJUST_RESIZE|IS_FORWARD_NAVIGATION
+        mFocusedWindowClient=ClientState{5237f9f mUid=1000 mPid=45405 mSelfReportedDisplayId=0}
+      enabledSession=SessionState{uid=1000 pid=45405 method=b76ccae session=865a4f channel=ClientState{5237f9f mUid=1000 mPid=45405 mSelfReportedDisplayId=0} userId=0}
+      inFullscreenMode=false
+      imeDrawsNavBar=false
+      switchingController:
+        mSwitchingAwareRotationList:
+        mSwitchingUnawareRotationList:
+          rank=0 item=ImeSubtypeListItem{mImeName=SogouIME-chuizi mSubtypeName=英语（美国） mSubtypeIndex=0 mIsSystemLocale=false mIsSystemLanguage=false}
+          rank=1 item=ImeSubtypeListItem{mImeName=按键精灵输入法 mSubtypeName=null mSubtypeIndex=-1 mIsSystemLocale=false mIsSystemLanguage=false}
+        mRotationList:
+          Static order:
+            i=0 item=ImeSubtypeListItem{mImeName=SogouIME-chuizi mSubtypeName=英语（美国） mSubtypeIndex=0 mIsSystemLocale=false mIsSystemLanguage=false}
+            i=1 item=ImeSubtypeListItem{mImeName=按键精灵输入法 mSubtypeName=null mSubtypeIndex=-1 mIsSystemLocale=false mIsSystemLanguage=false}
+          Recency order:
+            i=0 item=ImeSubtypeListItem{mImeName=SogouIME-chuizi mSubtypeName=英语（美国） mSubtypeIndex=0 mIsSystemLocale=false mIsSystemLanguage=false}
+            i=1 item=ImeSubtypeListItem{mImeName=按键精灵输入法 mSubtypeName=null mSubtypeIndex=-1 mIsSystemLocale=false mIsSystemLanguage=false}
+        mHardwareRotationList:
+          Static order:
+            i=0 item=ImeSubtypeListItem{mImeName=按键精灵输入法 mSubtypeName=null mSubtypeIndex=-1 mIsSystemLocale=false mIsSystemLanguage=false}
+            i=1 item=ImeSubtypeListItem{mImeName=SogouIME-chuizi mSubtypeName=英语（美国） mSubtypeIndex=0 mIsSystemLocale=false mIsSystemLanguage=false}
+          Recency order:
+            i=0 item=ImeSubtypeListItem{mImeName=按键精灵输入法 mSubtypeName=null mSubtypeIndex=-1 mIsSystemLocale=false mIsSystemLanguage=false}
+            i=1 item=ImeSubtypeListItem{mImeName=SogouIME-chuizi mSubtypeName=英语（美国） mSubtypeIndex=0 mIsSystemLocale=false mIsSystemLanguage=false}
+        User action since last switch: false
+      mLastEnabledInputMethodsStr=com.ac/com.ime.input.InputKb:com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME
+  mStartInputHistory:
+    StartInput #517:
+      time=2026-10-29 10:31:34.336 (timestamp=79757786) reason=WINDOW_FOCUS_GAIN restarting=false
+      imeToken=android.os.Binder@a5d2a4d [com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME] imeUserId=0 imeDisplayId=0
+      targetWin=android.os.BinderProxy@259b2c6 [com.tencent.tmgp.maplem] targetUserId=0 targetDisplayId=0 clientBindSeq=518
+      softInputMode=STATE_HIDDEN|ADJUST_RESIZE|IS_FORWARD_NAVIGATION
+      inputType=0x0 imeOptions=0x0 fieldId=0x0 fieldName=null actionId=0 actionLabel=null
+    StartInput #518:
+      time=2026-10-29 10:31:37.006 (timestamp=79760456) reason=WINDOW_FOCUS_GAIN restarting=false
+      imeToken=android.os.Binder@a5d2a4d [com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME] imeUserId=0 imeDisplayId=0
+      targetWin=android.os.BinderProxy@69a8833 [com.tencent.tmgp.maplem] targetUserId=0 targetDisplayId=0 clientBindSeq=519
+      softInputMode=STATE_UNSPECIFIED|ADJUST_PAN
+      inputType=0x0 imeOptions=0x0 fieldId=0x0 fieldName=null actionId=0 actionLabel=null
+    StartInput #519:
+      time=2026-10-29 10:31:37.426 (timestamp=79760876) reason=WINDOW_FOCUS_GAIN restarting=false
+      imeToken=android.os.Binder@a5d2a4d [com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME] imeUserId=0 imeDisplayId=0
+      targetWin=android.os.BinderProxy@69a8833 [com.tencent.tmgp.maplem] targetUserId=0 targetDisplayId=0 clientBindSeq=520
+      softInputMode=STATE_UNSPECIFIED|ADJUST_PAN|IS_FORWARD_NAVIGATION
+      inputType=0x0 imeOptions=0x0 fieldId=0x0 fieldName=null actionId=0 actionLabel=null
+    StartInput #520:
+      time=2026-10-29 10:44:38.777 (timestamp=80542227) reason=WINDOW_FOCUS_GAIN restarting=false
+      imeToken=android.os.Binder@a5d2a4d [com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME] imeUserId=0 imeDisplayId=0
+      targetWin=android.os.BinderProxy@93b41c5 [app.lawnchair] targetUserId=0 targetDisplayId=0 clientBindSeq=521
+      softInputMode=STATE_UNSPECIFIED|ADJUST_NOTHING|IS_FORWARD_NAVIGATION
+      inputType=0x0 imeOptions=0x0 fieldId=0x0 fieldName=null actionId=0 actionLabel=null
+    StartInput #521:
+      time=2026-10-29 11:19:24.206 (timestamp=82627656) reason=SESSION_CREATED_BY_IME restarting=false
+      imeToken=android.os.Binder@a5d2a4d [com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME] imeUserId=0 imeDisplayId=0
+      targetWin=android.os.BinderProxy@41c0cec [com.tencent.tmgp.maplem] targetUserId=0 targetDisplayId=0 clientBindSeq=522
+      softInputMode=STATE_UNSPECIFIED|ADJUST_PAN|IS_FORWARD_NAVIGATION
+      inputType=0x0 imeOptions=0x0 fieldId=0x0 fieldName=null actionId=0 actionLabel=null
+    StartInput #522:
+      time=2026-10-29 12:11:46.474 (timestamp=85769924) reason=WINDOW_FOCUS_GAIN restarting=false
+      imeToken=android.os.Binder@a5d2a4d [com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME] imeUserId=0 imeDisplayId=0
+      targetWin=android.os.BinderProxy@93b41c5 [app.lawnchair] targetUserId=0 targetDisplayId=0 clientBindSeq=523
+      softInputMode=STATE_UNSPECIFIED|ADJUST_NOTHING|IS_FORWARD_NAVIGATION
+      inputType=0x0 imeOptions=0x0 fieldId=0x0 fieldName=null actionId=0 actionLabel=null
+    StartInput #523:
+      time=2026-10-29 12:29:57.813 (timestamp=86861263) reason=WINDOW_FOCUS_GAIN restarting=false
+      imeToken=android.os.Binder@a5d2a4d [com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME] imeUserId=0 imeDisplayId=0
+      targetWin=android.os.BinderProxy@41c0cec [com.tencent.tmgp.maplem] targetUserId=0 targetDisplayId=0 clientBindSeq=524
+      softInputMode=STATE_UNSPECIFIED|ADJUST_PAN|IS_FORWARD_NAVIGATION
+      inputType=0x0 imeOptions=0x0 fieldId=0x0 fieldName=null actionId=0 actionLabel=null
+    StartInput #524:
+      time=2026-10-29 12:31:02.826 (timestamp=86926276) reason=WINDOW_FOCUS_GAIN restarting=false
+      imeToken=android.os.Binder@a5d2a4d [com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME] imeUserId=0 imeDisplayId=0
+      targetWin=android.os.BinderProxy@93b41c5 [app.lawnchair] targetUserId=0 targetDisplayId=0 clientBindSeq=525
+      softInputMode=STATE_UNSPECIFIED|ADJUST_NOTHING|IS_FORWARD_NAVIGATION
+      inputType=0x0 imeOptions=0x0 fieldId=0x0 fieldName=null actionId=0 actionLabel=null
+    StartInput #525:
+      time=2026-10-29 13:11:34.655 (timestamp=89358105) reason=WINDOW_FOCUS_GAIN restarting=false
+      imeToken=android.os.Binder@a5d2a4d [com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME] imeUserId=0 imeDisplayId=0
+      targetWin=android.os.BinderProxy@41c0cec [com.tencent.tmgp.maplem] targetUserId=0 targetDisplayId=0 clientBindSeq=526
+      softInputMode=STATE_UNSPECIFIED|ADJUST_PAN|IS_FORWARD_NAVIGATION
+      inputType=0x0 imeOptions=0x0 fieldId=0x0 fieldName=null actionId=0 actionLabel=null
+    StartInput #526:
+      time=2026-10-29 13:15:11.075 (timestamp=89574525) reason=WINDOW_FOCUS_GAIN restarting=false
+      imeToken=android.os.Binder@a5d2a4d [com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME] imeUserId=0 imeDisplayId=0
+      targetWin=android.os.BinderProxy@93b41c5 [app.lawnchair] targetUserId=0 targetDisplayId=0 clientBindSeq=527
+      softInputMode=STATE_UNSPECIFIED|ADJUST_NOTHING|IS_FORWARD_NAVIGATION
+      inputType=0x0 imeOptions=0x0 fieldId=0x0 fieldName=null actionId=0 actionLabel=null
+    StartInput #527:
+      time=2026-10-29 13:22:14.144 (timestamp=89997595) reason=WINDOW_FOCUS_GAIN restarting=false
+      imeToken=android.os.Binder@a5d2a4d [com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME] imeUserId=0 imeDisplayId=0
+      targetWin=android.os.BinderProxy@2c459d5 [com.ac] targetUserId=0 targetDisplayId=0 clientBindSeq=528
+      softInputMode=STATE_UNSPECIFIED|ADJUST_NOTHING
+      inputType=0x0 imeOptions=0x0 fieldId=0x0 fieldName=null actionId=0 actionLabel=null
+    StartInput #528:
+      time=2026-10-29 13:23:16.296 (timestamp=90059746) reason=WINDOW_FOCUS_GAIN restarting=false
+      imeToken=android.os.Binder@a5d2a4d [com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME] imeUserId=0 imeDisplayId=0
+      targetWin=android.os.BinderProxy@93b41c5 [app.lawnchair] targetUserId=0 targetDisplayId=0 clientBindSeq=529
+      softInputMode=STATE_UNSPECIFIED|ADJUST_NOTHING|IS_FORWARD_NAVIGATION
+      inputType=0x0 imeOptions=0x0 fieldId=0x0 fieldName=null actionId=0 actionLabel=null
+    StartInput #529:
+      time=2026-10-29 13:23:18.952 (timestamp=90062402) reason=SESSION_CREATED_BY_IME restarting=false
+      imeToken=android.os.Binder@a5d2a4d [com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME] imeUserId=0 imeDisplayId=0
+      targetWin=android.os.BinderProxy@7799f2e [com.android.settings] targetUserId=0 targetDisplayId=0 clientBindSeq=530
+      softInputMode=STATE_UNSPECIFIED|ADJUST_RESIZE|IS_FORWARD_NAVIGATION
+      inputType=0x0 imeOptions=0x0 fieldId=0x0 fieldName=null actionId=0 actionLabel=null
+    StartInput #530:
+      time=2026-10-29 13:23:20.470 (timestamp=90063920) reason=WINDOW_FOCUS_GAIN restarting=false
+      imeToken=android.os.Binder@a5d2a4d [com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME] imeUserId=0 imeDisplayId=0
+      targetWin=android.os.BinderProxy@6f30d34 [com.android.settings] targetUserId=0 targetDisplayId=0 clientBindSeq=531
+      softInputMode=STATE_UNSPECIFIED|ADJUST_RESIZE|IS_FORWARD_NAVIGATION
+      inputType=0x0 imeOptions=0x0 fieldId=0x0 fieldName=null actionId=0 actionLabel=null
+    StartInput #531:
+      time=2026-10-29 13:23:22.241 (timestamp=90065691) reason=WINDOW_FOCUS_GAIN restarting=false
+      imeToken=android.os.Binder@a5d2a4d [com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME] imeUserId=0 imeDisplayId=0
+      targetWin=android.os.BinderProxy@e0446f2 [com.android.settings] targetUserId=0 targetDisplayId=0 clientBindSeq=532
+      softInputMode=STATE_UNSPECIFIED|ADJUST_RESIZE|IS_FORWARD_NAVIGATION
+      inputType=0x0 imeOptions=0x0 fieldId=0x0 fieldName=null actionId=0 actionLabel=null
+    StartInput #532:
+      time=2026-10-29 13:23:24.555 (timestamp=90068005) reason=WINDOW_FOCUS_GAIN restarting=false
+      imeToken=android.os.Binder@a5d2a4d [com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME] imeUserId=0 imeDisplayId=0
+      targetWin=android.os.BinderProxy@945d4ac [com.android.settings] targetUserId=0 targetDisplayId=0 clientBindSeq=533
+      softInputMode=STATE_UNSPECIFIED|ADJUST_RESIZE|IS_FORWARD_NAVIGATION
+      inputType=0x0 imeOptions=0x0 fieldId=0x0 fieldName=null actionId=0 actionLabel=null
+    StartInput #533:
+      time=2026-10-29 13:24:04.223 (timestamp=90107674) reason=WINDOW_FOCUS_GAIN restarting=false
+      imeToken=android.os.Binder@a5d2a4d [com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME] imeUserId=0 imeDisplayId=0
+      targetWin=android.os.BinderProxy@2c459d5 [com.ac] targetUserId=0 targetDisplayId=0 clientBindSeq=534
+      softInputMode=STATE_UNSPECIFIED|ADJUST_NOTHING
+      inputType=0x0 imeOptions=0x0 fieldId=0x0 fieldName=null actionId=0 actionLabel=null
+    StartInput #534:
+      time=2026-10-29 13:24:05.519 (timestamp=90108970) reason=WINDOW_FOCUS_GAIN restarting=false
+      imeToken=android.os.Binder@a5d2a4d [com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME] imeUserId=0 imeDisplayId=0
+      targetWin=android.os.BinderProxy@93b41c5 [app.lawnchair] targetUserId=0 targetDisplayId=0 clientBindSeq=535
+      softInputMode=STATE_UNSPECIFIED|ADJUST_NOTHING|IS_FORWARD_NAVIGATION
+      inputType=0x0 imeOptions=0x0 fieldId=0x0 fieldName=null actionId=0 actionLabel=null
+    StartInput #535:
+      time=2026-10-29 13:24:07.185 (timestamp=90110636) reason=WINDOW_FOCUS_GAIN restarting=false
+      imeToken=android.os.Binder@a5d2a4d [com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME] imeUserId=0 imeDisplayId=0
+      targetWin=android.os.BinderProxy@945d4ac [com.android.settings] targetUserId=0 targetDisplayId=0 clientBindSeq=536
+      softInputMode=STATE_UNSPECIFIED|ADJUST_RESIZE|IS_FORWARD_NAVIGATION
+      inputType=0x0 imeOptions=0x0 fieldId=0x0 fieldName=null actionId=0 actionLabel=null
+    StartInput #536:
+      time=2026-10-29 13:24:08.979 (timestamp=90112429) reason=WINDOW_FOCUS_GAIN restarting=false
+      imeToken=android.os.Binder@a5d2a4d [com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME] imeUserId=0 imeDisplayId=0
+      targetWin=android.os.BinderProxy@e0446f2 [com.android.settings] targetUserId=0 targetDisplayId=0 clientBindSeq=537
+      softInputMode=STATE_UNSPECIFIED|ADJUST_RESIZE
+      inputType=0x0 imeOptions=0x0 fieldId=0x0 fieldName=null actionId=0 actionLabel=null
+    StartInput #537:
+      time=2026-10-29 13:24:10.339 (timestamp=90113790) reason=WINDOW_FOCUS_GAIN restarting=false
+      imeToken=android.os.Binder@a5d2a4d [com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME] imeUserId=0 imeDisplayId=0
+      targetWin=android.os.BinderProxy@6f30d34 [com.android.settings] targetUserId=0 targetDisplayId=0 clientBindSeq=538
+      softInputMode=STATE_UNSPECIFIED|ADJUST_RESIZE
+      inputType=0x0 imeOptions=0x0 fieldId=0x0 fieldName=null actionId=0 actionLabel=null
+    StartInput #538:
+      time=2026-10-29 13:24:11.994 (timestamp=90115444) reason=WINDOW_FOCUS_GAIN restarting=false
+      imeToken=android.os.Binder@a5d2a4d [com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME] imeUserId=0 imeDisplayId=0
+      targetWin=android.os.BinderProxy@7799f2e [com.android.settings] targetUserId=0 targetDisplayId=0 clientBindSeq=539
+      softInputMode=STATE_UNSPECIFIED|ADJUST_RESIZE
+      inputType=0x0 imeOptions=0x0 fieldId=0x0 fieldName=null actionId=0 actionLabel=null
+    StartInput #539:
+      time=2026-10-29 13:24:19.704 (timestamp=90123154) reason=WINDOW_FOCUS_GAIN restarting=false
+      imeToken=android.os.Binder@a5d2a4d [com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME] imeUserId=0 imeDisplayId=0
+      targetWin=android.os.BinderProxy@e59b6cd [com.android.settings] targetUserId=0 targetDisplayId=0 clientBindSeq=540
+      softInputMode=STATE_UNSPECIFIED|ADJUST_RESIZE|IS_FORWARD_NAVIGATION
+      inputType=0x0 imeOptions=0x0 fieldId=0x0 fieldName=null actionId=0 actionLabel=null
+    StartInput #540:
+      time=2026-10-29 13:24:21.744 (timestamp=90125194) reason=WINDOW_FOCUS_GAIN restarting=false
+      imeToken=android.os.Binder@a5d2a4d [com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME] imeUserId=0 imeDisplayId=0
+      targetWin=android.os.BinderProxy@7799f2e [com.android.settings] targetUserId=0 targetDisplayId=0 clientBindSeq=541
+      softInputMode=STATE_UNSPECIFIED|ADJUST_RESIZE
+      inputType=0x0 imeOptions=0x0 fieldId=0x0 fieldName=null actionId=0 actionLabel=null
+    StartInput #541:
+      time=2026-10-29 13:24:28.304 (timestamp=90131755) reason=WINDOW_FOCUS_GAIN restarting=false
+      imeToken=android.os.Binder@a5d2a4d [com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME] imeUserId=0 imeDisplayId=0
+      targetWin=android.os.BinderProxy@f735fdd [com.android.settings] targetUserId=0 targetDisplayId=0 clientBindSeq=542
+      softInputMode=STATE_UNSPECIFIED|ADJUST_RESIZE|IS_FORWARD_NAVIGATION
+      inputType=0x0 imeOptions=0x0 fieldId=0x0 fieldName=null actionId=0 actionLabel=null
+    StartInput #542:
+      time=2026-10-29 13:24:30.268 (timestamp=90133718) reason=WINDOW_FOCUS_GAIN restarting=false
+      imeToken=android.os.Binder@a5d2a4d [com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME] imeUserId=0 imeDisplayId=0
+      targetWin=android.os.BinderProxy@8c3fbb9 [com.android.settings] targetUserId=0 targetDisplayId=0 clientBindSeq=543
+      softInputMode=STATE_UNSPECIFIED|ADJUST_RESIZE|IS_FORWARD_NAVIGATION
+      inputType=0x0 imeOptions=0x0 fieldId=0x0 fieldName=null actionId=0 actionLabel=null
+    StartInput #543:
+      time=2026-10-29 13:24:31.387 (timestamp=90134837) reason=WINDOW_FOCUS_GAIN restarting=false
+      imeToken=android.os.Binder@a5d2a4d [com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME] imeUserId=0 imeDisplayId=0
+      targetWin=android.os.BinderProxy@acfe56a [com.android.settings] targetUserId=0 targetDisplayId=0 clientBindSeq=544
+      softInputMode=STATE_UNSPECIFIED|ADJUST_RESIZE|IS_FORWARD_NAVIGATION
+      inputType=0x0 imeOptions=0x0 fieldId=0x0 fieldName=null actionId=0 actionLabel=null
+    StartInput #544:
+      time=2026-10-29 13:24:35.717 (timestamp=90139167) reason=WINDOW_FOCUS_GAIN restarting=false
+      imeToken=android.os.Binder@a5d2a4d [com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME] imeUserId=0 imeDisplayId=0
+      targetWin=android.os.BinderProxy@8c3fbb9 [com.android.settings] targetUserId=0 targetDisplayId=0 clientBindSeq=545
+      softInputMode=STATE_UNSPECIFIED|ADJUST_RESIZE
+      inputType=0x0 imeOptions=0x0 fieldId=0x0 fieldName=null actionId=0 actionLabel=null
+    StartInput #545:
+      time=2026-10-29 13:26:31.119 (timestamp=90254569) reason=WINDOW_FOCUS_GAIN restarting=false
+      imeToken=android.os.Binder@a5d2a4d [com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME] imeUserId=0 imeDisplayId=0
+      targetWin=android.os.BinderProxy@e36e9c9 [com.android.settings] targetUserId=0 targetDisplayId=0 clientBindSeq=546
+      softInputMode=STATE_UNSPECIFIED|ADJUST_RESIZE|IS_FORWARD_NAVIGATION
+      inputType=0x0 imeOptions=0x0 fieldId=0x0 fieldName=null actionId=0 actionLabel=null
+    StartInput #546:
+      time=2026-10-29 13:26:35.103 (timestamp=90258554) reason=WINDOW_FOCUS_GAIN restarting=false
+      imeToken=android.os.Binder@a5d2a4d [com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME] imeUserId=0 imeDisplayId=0
+      targetWin=android.os.BinderProxy@93b41c5 [app.lawnchair] targetUserId=0 targetDisplayId=0 clientBindSeq=547
+      softInputMode=STATE_UNSPECIFIED|ADJUST_NOTHING|IS_FORWARD_NAVIGATION
+      inputType=0x0 imeOptions=0x0 fieldId=0x0 fieldName=null actionId=0 actionLabel=null
+    StartInput #547:
+      time=2026-10-29 13:26:39.045 (timestamp=90262495) reason=WINDOW_FOCUS_GAIN restarting=false
+      imeToken=android.os.Binder@a5d2a4d [com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME] imeUserId=0 imeDisplayId=0
+      targetWin=android.os.BinderProxy@93b41c5 [app.lawnchair] targetUserId=0 targetDisplayId=0 clientBindSeq=548
+      softInputMode=STATE_UNSPECIFIED|ADJUST_NOTHING
+      inputType=0x0 imeOptions=0x0 fieldId=0x0 fieldName=null actionId=0 actionLabel=null
+    StartInput #548:
+      time=2026-10-29 13:26:40.070 (timestamp=90263520) reason=WINDOW_FOCUS_GAIN restarting=false
+      imeToken=android.os.Binder@a5d2a4d [com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME] imeUserId=0 imeDisplayId=0
+      targetWin=android.os.BinderProxy@e36e9c9 [com.android.settings] targetUserId=0 targetDisplayId=0 clientBindSeq=549
+      softInputMode=STATE_UNSPECIFIED|ADJUST_RESIZE|IS_FORWARD_NAVIGATION
+      inputType=0x0 imeOptions=0x0 fieldId=0x0 fieldName=null actionId=0 actionLabel=null
+  mSoftInputShowHideHistory:
+    SoftInputShowHide[0] #776:
+      time=2026-10-29 10:02:20.973 (timestamp=78004423)
+      reason=HIDE_SOFT_INPUT inFullscreenMode=false
+      requestClient=ClientState{f95e423 mUid=10042 mPid=13087 mSelfReportedDisplayId=0}
+      focusedWindowName=b75d66 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      requestWindowName=b75d66 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeControlTargetName=b75d66 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeTargetNameFromWm=fbdb7f0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeSurfaceParentName=Surface(name=ActivityRecord{229936129 u0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity)/@0x98506c5
+      editorInfo: inputType=524289 privateImeOptions=null fieldId (viewId)=-1
+      focusedWindowSoftInputMode=STATE_VISIBLE|ADJUST_RESIZE|IS_FORWARD_NAVIGATION
+    SoftInputShowHide[0] #777:
+      time=2026-10-29 10:19:31.553 (timestamp=79035003)
+      reason=SHOW_SOFT_INPUT inFullscreenMode=false
+      requestClient=ClientState{f95e423 mUid=10042 mPid=13087 mSelfReportedDisplayId=0}
+      focusedWindowName=fbdb7f0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      requestWindowName=fbdb7f0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeControlTargetName=fbdb7f0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeTargetNameFromWm=1dd6488 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeSurfaceParentName=Surface(name=ActivityRecord{229936129 u0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity)/@0x98506c5
+      editorInfo: inputType=0 privateImeOptions=null fieldId (viewId)=0
+      focusedWindowSoftInputMode=STATE_UNSPECIFIED|ADJUST_PAN
+    SoftInputShowHide[0] #778:
+      time=2026-10-29 10:19:31.626 (timestamp=79035077)
+      reason=HIDE_SOFT_INPUT inFullscreenMode=false
+      requestClient=ClientState{f95e423 mUid=10042 mPid=13087 mSelfReportedDisplayId=0}
+      focusedWindowName=1dd6488 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      requestWindowName=1dd6488 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeControlTargetName=1dd6488 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeTargetNameFromWm=1dd6488 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeSurfaceParentName=Surface(name=ActivityRecord{229936129 u0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity)/@0x98506c5
+      editorInfo: inputType=524289 privateImeOptions=null fieldId (viewId)=-1
+      focusedWindowSoftInputMode=STATE_VISIBLE|ADJUST_RESIZE|IS_FORWARD_NAVIGATION
+    SoftInputShowHide[0] #779:
+      time=2026-10-29 10:19:31.637 (timestamp=79035088)
+      reason=SHOW_SOFT_INPUT inFullscreenMode=false
+      requestClient=ClientState{f95e423 mUid=10042 mPid=13087 mSelfReportedDisplayId=0}
+      focusedWindowName=1dd6488 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      requestWindowName=1dd6488 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeControlTargetName=1dd6488 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeTargetNameFromWm=1dd6488 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeSurfaceParentName=Surface(name=ActivityRecord{229936129 u0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity)/@0x98506c5
+      editorInfo: inputType=524289 privateImeOptions=null fieldId (viewId)=-1
+      focusedWindowSoftInputMode=STATE_VISIBLE|ADJUST_RESIZE|IS_FORWARD_NAVIGATION
+    SoftInputShowHide[0] #780:
+      time=2026-10-29 10:19:35.452 (timestamp=79038903)
+      reason=HIDE_SOFT_INPUT inFullscreenMode=false
+      requestClient=ClientState{f95e423 mUid=10042 mPid=13087 mSelfReportedDisplayId=0}
+      focusedWindowName=1dd6488 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      requestWindowName=1dd6488 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeControlTargetName=1dd6488 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeTargetNameFromWm=fbdb7f0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeSurfaceParentName=Surface(name=ActivityRecord{229936129 u0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity)/@0x98506c5
+      editorInfo: inputType=524289 privateImeOptions=null fieldId (viewId)=-1
+      focusedWindowSoftInputMode=STATE_VISIBLE|ADJUST_RESIZE|IS_FORWARD_NAVIGATION
+    SoftInputShowHide[0] #781:
+      time=2026-10-29 10:19:39.580 (timestamp=79043031)
+      reason=SHOW_SOFT_INPUT inFullscreenMode=false
+      requestClient=ClientState{f95e423 mUid=10042 mPid=13087 mSelfReportedDisplayId=0}
+      focusedWindowName=fbdb7f0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      requestWindowName=fbdb7f0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeControlTargetName=fbdb7f0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeTargetNameFromWm=276a3e1 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeSurfaceParentName=Surface(name=ActivityRecord{229936129 u0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity)/@0x98506c5
+      editorInfo: inputType=0 privateImeOptions=null fieldId (viewId)=0
+      focusedWindowSoftInputMode=STATE_UNSPECIFIED|ADJUST_PAN|IS_FORWARD_NAVIGATION
+    SoftInputShowHide[0] #782:
+      time=2026-10-29 10:19:39.662 (timestamp=79043112)
+      reason=SHOW_SOFT_INPUT inFullscreenMode=false
+      requestClient=ClientState{f95e423 mUid=10042 mPid=13087 mSelfReportedDisplayId=0}
+      focusedWindowName=276a3e1 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      requestWindowName=276a3e1 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeControlTargetName=276a3e1 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeTargetNameFromWm=276a3e1 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeSurfaceParentName=Surface(name=ActivityRecord{229936129 u0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity)/@0x98506c5
+      editorInfo: inputType=524289 privateImeOptions=null fieldId (viewId)=-1
+      focusedWindowSoftInputMode=STATE_VISIBLE|ADJUST_RESIZE|IS_FORWARD_NAVIGATION
+    SoftInputShowHide[0] #783:
+      time=2026-10-29 10:19:43.466 (timestamp=79046916)
+      reason=HIDE_SOFT_INPUT inFullscreenMode=false
+      requestClient=ClientState{f95e423 mUid=10042 mPid=13087 mSelfReportedDisplayId=0}
+      focusedWindowName=276a3e1 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      requestWindowName=276a3e1 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeControlTargetName=276a3e1 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeTargetNameFromWm=fbdb7f0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeSurfaceParentName=Surface(name=ActivityRecord{229936129 u0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity)/@0x98506c5
+      editorInfo: inputType=524289 privateImeOptions=null fieldId (viewId)=-1
+      focusedWindowSoftInputMode=STATE_VISIBLE|ADJUST_RESIZE|IS_FORWARD_NAVIGATION
+    SoftInputShowHide[0] #784:
+      time=2026-10-29 10:19:47.615 (timestamp=79051066)
+      reason=SHOW_SOFT_INPUT inFullscreenMode=false
+      requestClient=ClientState{f95e423 mUid=10042 mPid=13087 mSelfReportedDisplayId=0}
+      focusedWindowName=fbdb7f0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      requestWindowName=fbdb7f0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeControlTargetName=fbdb7f0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeTargetNameFromWm=b7587ab com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeSurfaceParentName=Surface(name=ActivityRecord{229936129 u0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity)/@0x98506c5
+      editorInfo: inputType=0 privateImeOptions=null fieldId (viewId)=0
+      focusedWindowSoftInputMode=STATE_UNSPECIFIED|ADJUST_PAN
+    SoftInputShowHide[0] #785:
+      time=2026-10-29 10:19:47.671 (timestamp=79051121)
+      reason=HIDE_SOFT_INPUT inFullscreenMode=false
+      requestClient=ClientState{f95e423 mUid=10042 mPid=13087 mSelfReportedDisplayId=0}
+      focusedWindowName=b7587ab com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      requestWindowName=b7587ab com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeControlTargetName=b7587ab com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeTargetNameFromWm=b7587ab com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeSurfaceParentName=Surface(name=ActivityRecord{229936129 u0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity)/@0x98506c5
+      editorInfo: inputType=524289 privateImeOptions=null fieldId (viewId)=-1
+      focusedWindowSoftInputMode=STATE_VISIBLE|ADJUST_RESIZE|IS_FORWARD_NAVIGATION
+    SoftInputShowHide[0] #786:
+      time=2026-10-29 10:19:47.672 (timestamp=79051122)
+      reason=SHOW_SOFT_INPUT inFullscreenMode=false
+      requestClient=ClientState{f95e423 mUid=10042 mPid=13087 mSelfReportedDisplayId=0}
+      focusedWindowName=b7587ab com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      requestWindowName=b7587ab com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeControlTargetName=b7587ab com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeTargetNameFromWm=b7587ab com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeSurfaceParentName=Surface(name=ActivityRecord{229936129 u0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity)/@0x98506c5
+      editorInfo: inputType=524289 privateImeOptions=null fieldId (viewId)=-1
+      focusedWindowSoftInputMode=STATE_VISIBLE|ADJUST_RESIZE|IS_FORWARD_NAVIGATION
+    SoftInputShowHide[0] #787:
+      time=2026-10-29 10:19:51.488 (timestamp=79054938)
+      reason=HIDE_SOFT_INPUT inFullscreenMode=false
+      requestClient=ClientState{f95e423 mUid=10042 mPid=13087 mSelfReportedDisplayId=0}
+      focusedWindowName=b7587ab com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      requestWindowName=b7587ab com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeControlTargetName=b7587ab com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeTargetNameFromWm=fbdb7f0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeSurfaceParentName=Surface(name=ActivityRecord{229936129 u0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity)/@0x98506c5
+      editorInfo: inputType=524289 privateImeOptions=null fieldId (viewId)=-1
+      focusedWindowSoftInputMode=STATE_VISIBLE|ADJUST_RESIZE|IS_FORWARD_NAVIGATION
+    SoftInputShowHide[0] #788:
+      time=2026-10-29 10:19:55.626 (timestamp=79059076)
+      reason=SHOW_SOFT_INPUT inFullscreenMode=false
+      requestClient=ClientState{f95e423 mUid=10042 mPid=13087 mSelfReportedDisplayId=0}
+      focusedWindowName=fbdb7f0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      requestWindowName=fbdb7f0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeControlTargetName=fbdb7f0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeTargetNameFromWm=6d4b3ae com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeSurfaceParentName=Surface(name=ActivityRecord{229936129 u0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity)/@0x98506c5
+      editorInfo: inputType=0 privateImeOptions=null fieldId (viewId)=0
+      focusedWindowSoftInputMode=STATE_UNSPECIFIED|ADJUST_PAN
+    SoftInputShowHide[0] #789:
+      time=2026-10-29 10:19:55.704 (timestamp=79059154)
+      reason=SHOW_SOFT_INPUT inFullscreenMode=false
+      requestClient=ClientState{f95e423 mUid=10042 mPid=13087 mSelfReportedDisplayId=0}
+      focusedWindowName=6d4b3ae com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      requestWindowName=6d4b3ae com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeControlTargetName=6d4b3ae com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeTargetNameFromWm=6d4b3ae com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeSurfaceParentName=Surface(name=ActivityRecord{229936129 u0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity)/@0x98506c5
+      editorInfo: inputType=524289 privateImeOptions=null fieldId (viewId)=-1
+      focusedWindowSoftInputMode=STATE_VISIBLE|ADJUST_RESIZE|IS_FORWARD_NAVIGATION
+    SoftInputShowHide[0] #790:
+      time=2026-10-29 10:19:55.704 (timestamp=79059154)
+      reason=SHOW_SOFT_INPUT inFullscreenMode=false
+      requestClient=ClientState{f95e423 mUid=10042 mPid=13087 mSelfReportedDisplayId=0}
+      focusedWindowName=6d4b3ae com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      requestWindowName=6d4b3ae com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeControlTargetName=6d4b3ae com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeTargetNameFromWm=6d4b3ae com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeSurfaceParentName=Surface(name=ActivityRecord{229936129 u0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity)/@0x98506c5
+      editorInfo: inputType=524289 privateImeOptions=null fieldId (viewId)=-1
+      focusedWindowSoftInputMode=STATE_VISIBLE|ADJUST_RESIZE|IS_FORWARD_NAVIGATION
+    SoftInputShowHide[0] #791:
+      time=2026-10-29 10:19:59.480 (timestamp=79062930)
+      reason=HIDE_SOFT_INPUT inFullscreenMode=false
+      requestClient=ClientState{f95e423 mUid=10042 mPid=13087 mSelfReportedDisplayId=0}
+      focusedWindowName=6d4b3ae com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      requestWindowName=6d4b3ae com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeControlTargetName=6d4b3ae com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeTargetNameFromWm=fbdb7f0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      imeSurfaceParentName=Surface(name=ActivityRecord{229936129 u0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity)/@0x98506c5
+      editorInfo: inputType=524289 privateImeOptions=null fieldId (viewId)=-1
+      focusedWindowSoftInputMode=STATE_VISIBLE|ADJUST_RESIZE|IS_FORWARD_NAVIGATION
+  mImeTrackerService#History:
+    mLiveEntries: 0 elements
+    mEntries: 100 elements
+      #1370 TYPE_SHOW - STATUS_TIMEOUT - com.tencent.tmgp.maplem:300c89fe (10001ms):
+        startTime=2026-10-29 09:45:13.619 ORIGIN_SERVER
+        reason=SHOW_STATE_VISIBLE_FORWARD_NAV PHASE_WM_GET_CONTROL_WITH_LEASH
+        requestWindowName=590c01f com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      #1379 TYPE_HIDE - STATUS_CANCEL - com.tencent.tmgp.maplem:d850698d (4ms):
+        startTime=2026-10-29 09:45:25.364 ORIGIN_CLIENT
+        reason=HIDE_SOFT_INPUT PHASE_CLIENT_ANIMATION_CANCEL
+        requestWindowName=not set
+      #1380 TYPE_HIDE - STATUS_SUCCESS - com.sohu.inputmethod.sogou.chuizi:711fe18a (2ms):
+        startTime=2026-10-29 09:45:25.375 ORIGIN_IME
+        reason=HIDE_SOFT_INPUT_LEGACY_DIRECT PHASE_CLIENT_NOTIFY_IME_VISIBILITY_CHANGED
+        requestWindowName=not set
+      #1381 TYPE_HIDE - STATUS_FAIL - com.tencent.tmgp.maplem:8e162a78 (0ms):
+        startTime=2026-10-29 09:45:25.400 ORIGIN_CLIENT
+        reason=HIDE_SOFT_INPUT PHASE_CLIENT_VIEW_SERVED
+        requestWindowName=not set
+      #1383 TYPE_SHOW - STATUS_FAIL - com.sohu.inputmethod.sogou.chuizi:47cf8856 (3ms):
+        startTime=2026-10-29 09:45:25.406 ORIGIN_IME
+        reason=SHOW_SOFT_INPUT_LEGACY_DIRECT PHASE_WM_ABORT_SHOW_IME_POST_LAYOUT
+        requestWindowName=not set
+      #1382 TYPE_HIDE - STATUS_SUCCESS - com.tencent.tmgp.maplem:5410cce8 (8ms):
+        startTime=2026-10-29 09:45:25.402 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_WM_NOTIFY_IME_VISIBILITY_CHANGED_FROM_CLIENT
+        requestWindowName=fbdb7f0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      #1378 TYPE_SHOW - STATUS_TIMEOUT - com.sohu.inputmethod.sogou.chuizi:c48d14a4 (10001ms):
+        startTime=2026-10-29 09:45:21.595 ORIGIN_IME
+        reason=SHOW_SOFT_INPUT_LEGACY_DIRECT PHASE_WM_GET_CONTROL_WITH_LEASH
+        requestWindowName=not set
+      #1384 TYPE_HIDE - STATUS_CANCEL - com.tencent.tmgp.maplem:ab163417 (1ms):
+        startTime=2026-10-29 10:00:01.218 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_CLIENT_ALREADY_HIDDEN
+        requestWindowName=not set
+      #1385 TYPE_HIDE - STATUS_CANCEL - com.tencent.tmgp.maplem:af8a99f7 (100ms):
+        startTime=2026-10-29 10:00:01.660 ORIGIN_SERVER
+        reason=HIDE_SAME_WINDOW_FOCUSED_WITHOUT_EDITOR PHASE_CLIENT_ALREADY_HIDDEN
+        requestWindowName=not set
+      #1387 TYPE_SHOW - STATUS_FAIL - com.tencent.tmgp.maplem:8f98d421 (1ms):
+        startTime=2026-10-29 10:01:53.602 ORIGIN_SERVER
+        reason=SHOW_STATE_VISIBLE_FORWARD_NAV PHASE_SERVER_UPDATE_CLIENT_VISIBILITY
+        requestWindowName=not set
+      #1386 TYPE_SHOW - STATUS_CANCEL - com.tencent.tmgp.maplem:16e3bb0f (110ms):
+        startTime=2026-10-29 10:01:53.523 ORIGIN_CLIENT
+        reason=SHOW_TOGGLE_SOFT_INPUT PHASE_CLIENT_ANIMATION_CANCEL
+        requestWindowName=fbdb7f0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      #1389 TYPE_HIDE - STATUS_CANCEL - com.tencent.tmgp.maplem:21955c91 (8ms):
+        startTime=2026-10-29 10:01:57.461 ORIGIN_CLIENT
+        reason=HIDE_SOFT_INPUT PHASE_CLIENT_ANIMATION_CANCEL
+        requestWindowName=not set
+      #1390 TYPE_HIDE - STATUS_SUCCESS - com.sohu.inputmethod.sogou.chuizi:cddcfdd5 (4ms):
+        startTime=2026-10-29 10:01:57.475 ORIGIN_IME
+        reason=HIDE_SOFT_INPUT_LEGACY_DIRECT PHASE_CLIENT_NOTIFY_IME_VISIBILITY_CHANGED
+        requestWindowName=not set
+      #1391 TYPE_HIDE - STATUS_FAIL - com.tencent.tmgp.maplem:ba15f4d (1ms):
+        startTime=2026-10-29 10:01:57.501 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_SERVER_UPDATE_CLIENT_VISIBILITY
+        requestWindowName=not set
+      #1392 TYPE_HIDE - STATUS_FAIL - com.tencent.tmgp.maplem:8ac541fc (0ms):
+        startTime=2026-10-29 10:01:57.553 ORIGIN_CLIENT
+        reason=HIDE_SOFT_INPUT PHASE_CLIENT_VIEW_SERVED
+        requestWindowName=not set
+      #1395 TYPE_HIDE - STATUS_SUCCESS - com.sohu.inputmethod.sogou.chuizi:b2033b88 (4ms):
+        startTime=2026-10-29 10:02:01.424 ORIGIN_IME
+        reason=HIDE_SOFT_INPUT_LEGACY_DIRECT PHASE_WM_NOTIFY_IME_VISIBILITY_CHANGED_FROM_CLIENT
+        requestWindowName=not set
+      #1394 TYPE_SHOW - STATUS_CANCEL - com.tencent.tmgp.maplem:cc707ca9 (21ms):
+        startTime=2026-10-29 10:02:01.419 ORIGIN_SERVER
+        reason=SHOW_STATE_VISIBLE_FORWARD_NAV PHASE_WM_POST_LAYOUT_NOTIFY_CONTROLS_CHANGED
+        requestWindowName=d7d78c3 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      #1393 TYPE_SHOW - STATUS_CANCEL - com.tencent.tmgp.maplem:b7f2403e (110ms):
+        startTime=2026-10-29 10:02:01.340 ORIGIN_CLIENT
+        reason=SHOW_TOGGLE_SOFT_INPUT PHASE_CLIENT_ANIMATION_CANCEL
+        requestWindowName=fbdb7f0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      #1388 TYPE_SHOW - STATUS_TIMEOUT - com.sohu.inputmethod.sogou.chuizi:5e0bf46f (10000ms):
+        startTime=2026-10-29 10:01:53.607 ORIGIN_IME
+        reason=SHOW_SOFT_INPUT_LEGACY_DIRECT PHASE_WM_GET_CONTROL_WITH_LEASH
+        requestWindowName=not set
+      #1396 TYPE_HIDE - STATUS_CANCEL - com.tencent.tmgp.maplem:fac123ef (3ms):
+        startTime=2026-10-29 10:02:05.328 ORIGIN_CLIENT
+        reason=HIDE_SOFT_INPUT PHASE_CLIENT_ANIMATION_CANCEL
+        requestWindowName=not set
+      #1397 TYPE_HIDE - STATUS_SUCCESS - com.sohu.inputmethod.sogou.chuizi:b3573405 (1ms):
+        startTime=2026-10-29 10:02:05.341 ORIGIN_IME
+        reason=HIDE_SOFT_INPUT_LEGACY_DIRECT PHASE_WM_NOTIFY_IME_VISIBILITY_CHANGED_FROM_CLIENT
+        requestWindowName=not set
+      #1399 TYPE_HIDE - STATUS_FAIL - com.tencent.tmgp.maplem:3fa7d27b (1ms):
+        startTime=2026-10-29 10:02:05.368 ORIGIN_CLIENT
+        reason=HIDE_SOFT_INPUT PHASE_CLIENT_VIEW_SERVED
+        requestWindowName=not set
+      #1400 TYPE_SHOW - STATUS_FAIL - com.sohu.inputmethod.sogou.chuizi:1d507bb5 (3ms):
+        startTime=2026-10-29 10:02:05.370 ORIGIN_IME
+        reason=SHOW_SOFT_INPUT_LEGACY_DIRECT PHASE_WM_ABORT_SHOW_IME_POST_LAYOUT
+        requestWindowName=not set
+      #1398 TYPE_HIDE - STATUS_SUCCESS - com.tencent.tmgp.maplem:d9edecae (6ms):
+        startTime=2026-10-29 10:02:05.367 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_WM_NOTIFY_IME_VISIBILITY_CHANGED_FROM_CLIENT
+        requestWindowName=fbdb7f0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      #1403 TYPE_HIDE - STATUS_SUCCESS - com.sohu.inputmethod.sogou.chuizi:c36ba6e0 (1ms):
+        startTime=2026-10-29 10:02:09.290 ORIGIN_IME
+        reason=HIDE_SOFT_INPUT_LEGACY_DIRECT PHASE_CLIENT_NOTIFY_IME_VISIBILITY_CHANGED
+        requestWindowName=not set
+      #1402 TYPE_SHOW - STATUS_CANCEL - com.tencent.tmgp.maplem:c46fe513 (16ms):
+        startTime=2026-10-29 10:02:09.284 ORIGIN_SERVER
+        reason=SHOW_STATE_VISIBLE_FORWARD_NAV PHASE_WM_POST_LAYOUT_NOTIFY_CONTROLS_CHANGED
+        requestWindowName=f3b2083 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      #1401 TYPE_SHOW - STATUS_CANCEL - com.tencent.tmgp.maplem:5581ce56 (87ms):
+        startTime=2026-10-29 10:02:09.229 ORIGIN_CLIENT
+        reason=SHOW_TOGGLE_SOFT_INPUT PHASE_CLIENT_ANIMATION_CANCEL
+        requestWindowName=fbdb7f0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      #1404 TYPE_HIDE - STATUS_CANCEL - com.tencent.tmgp.maplem:f61a1d05 (4ms):
+        startTime=2026-10-29 10:02:13.166 ORIGIN_CLIENT
+        reason=HIDE_SOFT_INPUT PHASE_CLIENT_ANIMATION_CANCEL
+        requestWindowName=not set
+      #1405 TYPE_HIDE - STATUS_SUCCESS - com.sohu.inputmethod.sogou.chuizi:fc5cac4c (4ms):
+        startTime=2026-10-29 10:02:13.180 ORIGIN_IME
+        reason=HIDE_SOFT_INPUT_LEGACY_DIRECT PHASE_WM_NOTIFY_IME_VISIBILITY_CHANGED_FROM_CLIENT
+        requestWindowName=not set
+      #1406 TYPE_HIDE - STATUS_CANCEL - com.tencent.tmgp.maplem:2de6f202 (3ms):
+        startTime=2026-10-29 10:02:13.200 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_SERVER_SHOULD_HIDE
+        requestWindowName=not set
+      #1407 TYPE_HIDE - STATUS_FAIL - com.tencent.tmgp.maplem:cc9b849b (0ms):
+        startTime=2026-10-29 10:02:13.248 ORIGIN_CLIENT
+        reason=HIDE_SOFT_INPUT PHASE_CLIENT_VIEW_SERVED
+        requestWindowName=not set
+      #1410 TYPE_HIDE - STATUS_SUCCESS - com.sohu.inputmethod.sogou.chuizi:8e2bde4b (1ms):
+        startTime=2026-10-29 10:02:17.207 ORIGIN_IME
+        reason=HIDE_SOFT_INPUT_LEGACY_DIRECT PHASE_WM_NOTIFY_IME_VISIBILITY_CHANGED_FROM_CLIENT
+        requestWindowName=not set
+      #1409 TYPE_SHOW - STATUS_CANCEL - com.tencent.tmgp.maplem:770dffdc (13ms):
+        startTime=2026-10-29 10:02:17.202 ORIGIN_SERVER
+        reason=SHOW_STATE_VISIBLE_FORWARD_NAV PHASE_WM_POST_LAYOUT_NOTIFY_CONTROLS_CHANGED
+        requestWindowName=b75d66 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      #1408 TYPE_SHOW - STATUS_CANCEL - com.tencent.tmgp.maplem:3ab56f61 (100ms):
+        startTime=2026-10-29 10:02:17.136 ORIGIN_CLIENT
+        reason=SHOW_TOGGLE_SOFT_INPUT PHASE_CLIENT_ANIMATION_CANCEL
+        requestWindowName=fbdb7f0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      #1411 TYPE_HIDE - STATUS_CANCEL - com.tencent.tmgp.maplem:c4b3aa3b (3ms):
+        startTime=2026-10-29 10:02:20.962 ORIGIN_CLIENT
+        reason=HIDE_SOFT_INPUT PHASE_CLIENT_ANIMATION_CANCEL
+        requestWindowName=not set
+      #1412 TYPE_HIDE - STATUS_SUCCESS - com.sohu.inputmethod.sogou.chuizi:ef626d02 (1ms):
+        startTime=2026-10-29 10:02:20.973 ORIGIN_IME
+        reason=HIDE_SOFT_INPUT_LEGACY_DIRECT PHASE_WM_NOTIFY_IME_VISIBILITY_CHANGED_FROM_CLIENT
+        requestWindowName=not set
+      #1413 TYPE_HIDE - STATUS_CANCEL - com.tencent.tmgp.maplem:69ca360b (2ms):
+        startTime=2026-10-29 10:02:21.000 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_SERVER_SHOULD_HIDE
+        requestWindowName=not set
+      #1414 TYPE_HIDE - STATUS_FAIL - com.tencent.tmgp.maplem:5b34ca52 (1ms):
+        startTime=2026-10-29 10:02:21.048 ORIGIN_CLIENT
+        reason=HIDE_SOFT_INPUT PHASE_CLIENT_VIEW_SERVED
+        requestWindowName=not set
+      #1415 TYPE_HIDE - STATUS_CANCEL - com.tencent.tmgp.maplem:b961169f (4ms):
+        startTime=2026-10-29 10:17:11.657 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_CLIENT_ALREADY_HIDDEN
+        requestWindowName=not set
+      #1418 TYPE_HIDE - STATUS_SUCCESS - com.sohu.inputmethod.sogou.chuizi:d7134e17 (20ms):
+        startTime=2026-10-29 10:19:31.635 ORIGIN_IME
+        reason=HIDE_SOFT_INPUT_LEGACY_DIRECT PHASE_CLIENT_NOTIFY_IME_VISIBILITY_CHANGED
+        requestWindowName=not set
+      #1416 TYPE_SHOW - STATUS_CANCEL - com.tencent.tmgp.maplem:2eeaccd0 (126ms):
+        startTime=2026-10-29 10:19:31.547 ORIGIN_CLIENT
+        reason=SHOW_TOGGLE_SOFT_INPUT PHASE_CLIENT_ANIMATION_CANCEL
+        requestWindowName=fbdb7f0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      #1419 TYPE_HIDE - STATUS_CANCEL - com.tencent.tmgp.maplem:add62b88 (4ms):
+        startTime=2026-10-29 10:19:35.437 ORIGIN_CLIENT
+        reason=HIDE_SOFT_INPUT PHASE_CLIENT_ANIMATION_CANCEL
+        requestWindowName=not set
+      #1420 TYPE_HIDE - STATUS_SUCCESS - com.sohu.inputmethod.sogou.chuizi:691fd03a (2ms):
+        startTime=2026-10-29 10:19:35.453 ORIGIN_IME
+        reason=HIDE_SOFT_INPUT_LEGACY_DIRECT PHASE_WM_NOTIFY_IME_VISIBILITY_CHANGED_FROM_CLIENT
+        requestWindowName=not set
+      #1421 TYPE_HIDE - STATUS_FAIL - com.tencent.tmgp.maplem:89b48c9e (0ms):
+        startTime=2026-10-29 10:19:35.474 ORIGIN_CLIENT
+        reason=HIDE_SOFT_INPUT PHASE_CLIENT_VIEW_SERVED
+        requestWindowName=not set
+      #1422 TYPE_HIDE - STATUS_FAIL - com.tencent.tmgp.maplem:3f830555 (1ms):
+        startTime=2026-10-29 10:19:35.483 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_SERVER_UPDATE_CLIENT_VISIBILITY
+        requestWindowName=not set
+      #1424 TYPE_SHOW - STATUS_FAIL - com.tencent.tmgp.maplem:335e111a (1ms):
+        startTime=2026-10-29 10:19:39.654 ORIGIN_SERVER
+        reason=SHOW_STATE_VISIBLE_FORWARD_NAV PHASE_SERVER_UPDATE_CLIENT_VISIBILITY
+        requestWindowName=not set
+      #1423 TYPE_SHOW - STATUS_CANCEL - com.tencent.tmgp.maplem:fc15ce4 (107ms):
+        startTime=2026-10-29 10:19:39.576 ORIGIN_CLIENT
+        reason=SHOW_TOGGLE_SOFT_INPUT PHASE_CLIENT_ANIMATION_CANCEL
+        requestWindowName=fbdb7f0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      #1417 TYPE_SHOW - STATUS_TIMEOUT - com.tencent.tmgp.maplem:ca0d9203 (10001ms):
+        startTime=2026-10-29 10:19:31.623 ORIGIN_SERVER
+        reason=SHOW_STATE_VISIBLE_FORWARD_NAV PHASE_WM_GET_CONTROL_WITH_LEASH
+        requestWindowName=1dd6488 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      #1426 TYPE_HIDE - STATUS_CANCEL - com.tencent.tmgp.maplem:19cf3b55 (3ms):
+        startTime=2026-10-29 10:19:43.455 ORIGIN_CLIENT
+        reason=HIDE_SOFT_INPUT PHASE_CLIENT_ANIMATION_CANCEL
+        requestWindowName=not set
+      #1427 TYPE_HIDE - STATUS_SUCCESS - com.sohu.inputmethod.sogou.chuizi:84ef8d76 (2ms):
+        startTime=2026-10-29 10:19:43.466 ORIGIN_IME
+        reason=HIDE_SOFT_INPUT_LEGACY_DIRECT PHASE_CLIENT_NOTIFY_IME_VISIBILITY_CHANGED
+        requestWindowName=not set
+      #1428 TYPE_HIDE - STATUS_FAIL - com.tencent.tmgp.maplem:9fe46f70 (0ms):
+        startTime=2026-10-29 10:19:43.485 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_SERVER_UPDATE_CLIENT_VISIBILITY
+        requestWindowName=not set
+      #1429 TYPE_HIDE - STATUS_FAIL - com.tencent.tmgp.maplem:374f3216 (0ms):
+        startTime=2026-10-29 10:19:43.490 ORIGIN_CLIENT
+        reason=HIDE_SOFT_INPUT PHASE_CLIENT_VIEW_SERVED
+        requestWindowName=not set
+      #1432 TYPE_HIDE - STATUS_SUCCESS - com.sohu.inputmethod.sogou.chuizi:a3c5c686 (2ms):
+        startTime=2026-10-29 10:19:47.673 ORIGIN_IME
+        reason=HIDE_SOFT_INPUT_LEGACY_DIRECT PHASE_WM_NOTIFY_IME_VISIBILITY_CHANGED_FROM_CLIENT
+        requestWindowName=not set
+      #1431 TYPE_SHOW - STATUS_CANCEL - com.tencent.tmgp.maplem:c3c4350b (13ms):
+        startTime=2026-10-29 10:19:47.669 ORIGIN_SERVER
+        reason=SHOW_STATE_VISIBLE_FORWARD_NAV PHASE_WM_POST_LAYOUT_NOTIFY_CONTROLS_CHANGED
+        requestWindowName=b7587ab com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      #1430 TYPE_SHOW - STATUS_CANCEL - com.tencent.tmgp.maplem:cadae7d5 (86ms):
+        startTime=2026-10-29 10:19:47.613 ORIGIN_CLIENT
+        reason=SHOW_TOGGLE_SOFT_INPUT PHASE_CLIENT_ANIMATION_CANCEL
+        requestWindowName=fbdb7f0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      #1425 TYPE_SHOW - STATUS_TIMEOUT - com.sohu.inputmethod.sogou.chuizi:b4575310 (10000ms):
+        startTime=2026-10-29 10:19:39.664 ORIGIN_IME
+        reason=SHOW_SOFT_INPUT_LEGACY_DIRECT PHASE_WM_GET_CONTROL_WITH_LEASH
+        requestWindowName=not set
+      #1433 TYPE_HIDE - STATUS_CANCEL - com.tencent.tmgp.maplem:79667fbc (2ms):
+        startTime=2026-10-29 10:19:51.479 ORIGIN_CLIENT
+        reason=HIDE_SOFT_INPUT PHASE_CLIENT_ANIMATION_CANCEL
+        requestWindowName=not set
+      #1434 TYPE_HIDE - STATUS_SUCCESS - com.sohu.inputmethod.sogou.chuizi:a0e22011 (2ms):
+        startTime=2026-10-29 10:19:51.488 ORIGIN_IME
+        reason=HIDE_SOFT_INPUT_LEGACY_DIRECT PHASE_WM_NOTIFY_IME_VISIBILITY_CHANGED_FROM_CLIENT
+        requestWindowName=not set
+      #1435 TYPE_HIDE - STATUS_FAIL - com.tencent.tmgp.maplem:1b4a183c (1ms):
+        startTime=2026-10-29 10:19:51.509 ORIGIN_CLIENT
+        reason=HIDE_SOFT_INPUT PHASE_CLIENT_VIEW_SERVED
+        requestWindowName=not set
+      #1436 TYPE_HIDE - STATUS_FAIL - com.tencent.tmgp.maplem:b2dbbf8b (1ms):
+        startTime=2026-10-29 10:19:51.517 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_SERVER_UPDATE_CLIENT_VISIBILITY
+        requestWindowName=not set
+      #1439 TYPE_SHOW - STATUS_CANCEL - com.sohu.inputmethod.sogou.chuizi:2b24b854 (2ms):
+        startTime=2026-10-29 10:19:55.705 ORIGIN_IME
+        reason=SHOW_SOFT_INPUT_LEGACY_DIRECT PHASE_WM_ABORT_SHOW_IME_POST_LAYOUT
+        requestWindowName=not set
+      #1437 TYPE_SHOW - STATUS_CANCEL - com.tencent.tmgp.maplem:35bd6fb1 (108ms):
+        startTime=2026-10-29 10:19:55.624 ORIGIN_CLIENT
+        reason=SHOW_TOGGLE_SOFT_INPUT PHASE_CLIENT_ANIMATION_CANCEL
+        requestWindowName=fbdb7f0 com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      #1440 TYPE_HIDE - STATUS_CANCEL - com.tencent.tmgp.maplem:a0c1ff41 (3ms):
+        startTime=2026-10-29 10:19:59.470 ORIGIN_CLIENT
+        reason=HIDE_SOFT_INPUT PHASE_CLIENT_ANIMATION_CANCEL
+        requestWindowName=not set
+      #1441 TYPE_HIDE - STATUS_SUCCESS - com.sohu.inputmethod.sogou.chuizi:9954ec4e (2ms):
+        startTime=2026-10-29 10:19:59.480 ORIGIN_IME
+        reason=HIDE_SOFT_INPUT_LEGACY_DIRECT PHASE_CLIENT_NOTIFY_IME_VISIBILITY_CHANGED
+        requestWindowName=not set
+      #1442 TYPE_HIDE - STATUS_FAIL - com.tencent.tmgp.maplem:1d70563d (0ms):
+        startTime=2026-10-29 10:19:59.500 ORIGIN_CLIENT
+        reason=HIDE_SOFT_INPUT PHASE_CLIENT_VIEW_SERVED
+        requestWindowName=not set
+      #1443 TYPE_HIDE - STATUS_FAIL - com.tencent.tmgp.maplem:d6dd7bb1 (1ms):
+        startTime=2026-10-29 10:19:59.501 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_SERVER_UPDATE_CLIENT_VISIBILITY
+        requestWindowName=not set
+      #1438 TYPE_SHOW - STATUS_TIMEOUT - com.tencent.tmgp.maplem:b0649f40 (10000ms):
+        startTime=2026-10-29 10:19:55.702 ORIGIN_SERVER
+        reason=SHOW_STATE_VISIBLE_FORWARD_NAV PHASE_WM_GET_CONTROL_WITH_LEASH
+        requestWindowName=6d4b3ae com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity
+      #1444 TYPE_HIDE - STATUS_CANCEL - com.tencent.tmgp.maplem:f02aca78 (1ms):
+        startTime=2026-10-29 10:31:37.006 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_CLIENT_ALREADY_HIDDEN
+        requestWindowName=not set
+      #1445 TYPE_HIDE - STATUS_CANCEL - com.tencent.tmgp.maplem:df3386df (0ms):
+        startTime=2026-10-29 10:31:37.426 ORIGIN_SERVER
+        reason=HIDE_SAME_WINDOW_FOCUSED_WITHOUT_EDITOR PHASE_CLIENT_ALREADY_HIDDEN
+        requestWindowName=not set
+      #1446 TYPE_HIDE - STATUS_CANCEL - app.lawnchair:97d6ea82 (26ms):
+        startTime=2026-10-29 10:44:38.776 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_CLIENT_ALREADY_HIDDEN
+        requestWindowName=not set
+      #1447 TYPE_HIDE - STATUS_CANCEL - com.tencent.tmgp.maplem:ed20bce2 (4ms):
+        startTime=2026-10-29 11:19:24.199 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_CLIENT_ALREADY_HIDDEN
+        requestWindowName=not set
+      #1448 TYPE_HIDE - STATUS_CANCEL - app.lawnchair:b8be1124 (5ms):
+        startTime=2026-10-29 12:11:46.471 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_CLIENT_ALREADY_HIDDEN
+        requestWindowName=not set
+      #1449 TYPE_HIDE - STATUS_CANCEL - com.tencent.tmgp.maplem:30432557 (2ms):
+        startTime=2026-10-29 12:29:57.812 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_CLIENT_ALREADY_HIDDEN
+        requestWindowName=not set
+      #1450 TYPE_HIDE - STATUS_CANCEL - app.lawnchair:f5465be9 (1ms):
+        startTime=2026-10-29 12:31:02.826 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_CLIENT_ALREADY_HIDDEN
+        requestWindowName=not set
+      #1451 TYPE_HIDE - STATUS_CANCEL - com.tencent.tmgp.maplem:e0c78641 (0ms):
+        startTime=2026-10-29 13:11:34.654 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_CLIENT_ALREADY_HIDDEN
+        requestWindowName=not set
+      #1452 TYPE_HIDE - STATUS_CANCEL - app.lawnchair:eac8f514 (1ms):
+        startTime=2026-10-29 13:15:11.074 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_CLIENT_ALREADY_HIDDEN
+        requestWindowName=not set
+      #1453 TYPE_HIDE - STATUS_CANCEL - com.ac:aa87e5d2 (62ms):
+        startTime=2026-10-29 13:22:14.144 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_CLIENT_ALREADY_HIDDEN
+        requestWindowName=not set
+      #1455 TYPE_HIDE - STATUS_CANCEL - com.ac:6964e33b (5ms):
+        startTime=2026-10-29 13:23:16.300 ORIGIN_CLIENT
+        reason=HIDE_WINDOW_LOST_FOCUS PHASE_CLIENT_ALREADY_HIDDEN
+        requestWindowName=not set
+      #1454 TYPE_HIDE - STATUS_CANCEL - app.lawnchair:61b44a (95ms):
+        startTime=2026-10-29 13:23:16.295 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_CLIENT_ALREADY_HIDDEN
+        requestWindowName=not set
+      #1456 TYPE_HIDE - STATUS_CANCEL - com.android.settings:c0267167 (4ms):
+        startTime=2026-10-29 13:23:18.942 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_CLIENT_ALREADY_HIDDEN
+        requestWindowName=not set
+      #1457 TYPE_HIDE - STATUS_CANCEL - com.android.settings:541cd7eb (3ms):
+        startTime=2026-10-29 13:23:20.470 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_CLIENT_ALREADY_HIDDEN
+        requestWindowName=not set
+      #1458 TYPE_HIDE - STATUS_CANCEL - com.android.settings:ab8a9727 (286ms):
+        startTime=2026-10-29 13:23:22.240 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_CLIENT_ALREADY_HIDDEN
+        requestWindowName=not set
+      #1459 TYPE_HIDE - STATUS_CANCEL - com.android.settings:3cf1a464 (9ms):
+        startTime=2026-10-29 13:23:24.554 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_CLIENT_ALREADY_HIDDEN
+        requestWindowName=not set
+      #1460 TYPE_HIDE - STATUS_CANCEL - com.ac:80191ce (122ms):
+        startTime=2026-10-29 13:24:04.220 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_CLIENT_ALREADY_HIDDEN
+        requestWindowName=not set
+      #1461 TYPE_HIDE - STATUS_CANCEL - app.lawnchair:1d073e8f (3ms):
+        startTime=2026-10-29 13:24:05.519 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_CLIENT_ALREADY_HIDDEN
+        requestWindowName=not set
+      #1462 TYPE_HIDE - STATUS_CANCEL - com.ac:9dfcb15c (1ms):
+        startTime=2026-10-29 13:24:05.591 ORIGIN_CLIENT
+        reason=HIDE_WINDOW_LOST_FOCUS PHASE_CLIENT_ALREADY_HIDDEN
+        requestWindowName=not set
+      #1463 TYPE_HIDE - STATUS_CANCEL - com.android.settings:5b74b0a8 (1ms):
+        startTime=2026-10-29 13:24:07.185 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_CLIENT_ALREADY_HIDDEN
+        requestWindowName=not set
+      #1464 TYPE_HIDE - STATUS_CANCEL - com.android.settings:d72fd0dc (279ms):
+        startTime=2026-10-29 13:24:08.979 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_CLIENT_ALREADY_HIDDEN
+        requestWindowName=not set
+      #1465 TYPE_HIDE - STATUS_CANCEL - com.android.settings:a39c4154 (7ms):
+        startTime=2026-10-29 13:24:10.339 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_CLIENT_ALREADY_HIDDEN
+        requestWindowName=not set
+      #1466 TYPE_HIDE - STATUS_CANCEL - com.android.settings:100dd931 (13ms):
+        startTime=2026-10-29 13:24:11.993 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_CLIENT_ALREADY_HIDDEN
+        requestWindowName=not set
+      #1467 TYPE_HIDE - STATUS_CANCEL - com.android.settings:f97f060f (1ms):
+        startTime=2026-10-29 13:24:19.703 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_CLIENT_ALREADY_HIDDEN
+        requestWindowName=not set
+      #1468 TYPE_HIDE - STATUS_CANCEL - com.android.settings:a8d596c6 (17ms):
+        startTime=2026-10-29 13:24:21.743 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_CLIENT_ALREADY_HIDDEN
+        requestWindowName=not set
+      #1469 TYPE_HIDE - STATUS_CANCEL - com.android.settings:e0e9d43 (0ms):
+        startTime=2026-10-29 13:24:28.304 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_CLIENT_ALREADY_HIDDEN
+        requestWindowName=not set
+      #1470 TYPE_HIDE - STATUS_CANCEL - com.android.settings:22b1cb12 (1ms):
+        startTime=2026-10-29 13:24:30.267 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_CLIENT_ALREADY_HIDDEN
+        requestWindowName=not set
+      #1471 TYPE_HIDE - STATUS_CANCEL - com.android.settings:fc7ad81a (1ms):
+        startTime=2026-10-29 13:24:31.387 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_CLIENT_ALREADY_HIDDEN
+        requestWindowName=not set
+      #1472 TYPE_HIDE - STATUS_CANCEL - com.android.settings:919f9e40 (1ms):
+        startTime=2026-10-29 13:24:35.717 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_CLIENT_ALREADY_HIDDEN
+        requestWindowName=not set
+      #1473 TYPE_HIDE - STATUS_CANCEL - com.android.settings:87ca4eb9 (0ms):
+        startTime=2026-10-29 13:26:31.119 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_CLIENT_ALREADY_HIDDEN
+        requestWindowName=not set
+      #1474 TYPE_HIDE - STATUS_CANCEL - app.lawnchair:8803be06 (0ms):
+        startTime=2026-10-29 13:26:35.102 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_CLIENT_ALREADY_HIDDEN
+        requestWindowName=not set
+      #1475 TYPE_HIDE - STATUS_CANCEL - app.lawnchair:d957e0cc (0ms):
+        startTime=2026-10-29 13:26:39.045 ORIGIN_SERVER
+        reason=HIDE_SAME_WINDOW_FOCUSED_WITHOUT_EDITOR PHASE_CLIENT_ALREADY_HIDDEN
+        requestWindowName=not set
+      #1476 TYPE_HIDE - STATUS_CANCEL - com.android.settings:4dba9885 (1ms):
+        startTime=2026-10-29 13:26:40.069 ORIGIN_SERVER
+        reason=HIDE_UNSPECIFIED_WINDOW PHASE_CLIENT_ALREADY_HIDDEN
+        requestWindowName=not set
+  UserId=0
+    mBindingController:
+      mSelectedMethodId=com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME
+      mCurrentSubtype=android.view.inputmethod.InputMethodSubtype@6b6dbdec
+      mCurSeq=549
+      mCurId=com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME
+      mHasMainConnection=true
+      mVisibleBound=false
+      mCurToken=android.os.Binder@a5d2a4d
+      mCurTokenDisplayId=0
+      mCurHostInputToken=null
+      mCurIntent=Intent { act=android.view.InputMethod cmp=com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME (has extras) }
+      mCurMethod=com.android.server.inputmethod.IInputMethodInvoker@8a58fd1
+      mImeWindowVis=0
+      mBackDisposition=0
+      mDisplayIdToShowIme=0
+      mDeviceIdToShowIme=0
+      mSupportsStylusHw=false
+      mSupportsConnectionlessStylusHw=false
+    mCurClient=ClientState{5237f9f mUid=1000 mPid=45405 mSelfReportedDisplayId=0}
+    mFocusedWindowPerceptible={android.os.BinderProxy@e0446f2=true, android.os.BinderProxy@94ed948=true, android.os.BinderProxy@e36e9c9=true, android.os.BinderProxy@e4ebb32=true, android.os.BinderProxy@a61282b=true, android.os.BinderProxy@93b41c5=true, android.os.BinderProxy@945d4ac=true, android.os.BinderProxy@ad2babb=true, null=true, android.os.BinderProxy@f735fdd=true, android.os.BinderProxy@acfe56a=true, android.os.BinderProxy@bbe4c72=true, android.os.BinderProxy@e59b6cd=true, android.os.BinderProxy@69a8833=true, android.os.BinderProxy@c114429=true, android.os.BinderProxy@41c0cec=true, android.os.BinderProxy@259b2c6=true, android.os.BinderProxy@7799f2e=true, android.os.BinderProxy@a4221c1=true, android.os.BinderProxy@8c3fbb9=true, android.os.BinderProxy@2c459d5=true, android.os.BinderProxy@6f30d34=true, android.os.BinderProxy@9f325fa=true}
+    mImeBindingState:
+      mFocusedWindow=android.os.BinderProxy@e36e9c9
+      mFocusedWindowSoftInputMode=STATE_UNSPECIFIED|ADJUST_RESIZE|IS_FORWARD_NAVIGATION
+      mFocusedWindowClient=ClientState{5237f9f mUid=1000 mPid=45405 mSelfReportedDisplayId=0}
+    mBoundToMethod=true
+    mEnabledSession=SessionState{uid=1000 pid=45405 method=b76ccae session=865a4f channel=ClientState{5237f9f mUid=1000 mPid=45405 mSelfReportedDisplayId=0} userId=0}
+    mVisibilityStateComputer:
+      mRequestedShowExplicitly=false mShowForced=false
+      mImeHiddenByDisplayPolicy=false
+      mInputShown=false
+      mLastImeTargetWindow=android.os.BinderProxy@e36e9c9
+    mInFullscreenMode=false
+    Input Methods:
+      InputMethod #0:
+        mId=com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME mSettingsActivityName=null mLanguageSettingsActivityName=null mIsVrOnly=false mIsVirtualDeviceOnly=false mSupportsSwitchingToNextInputMethod=false mInlineSuggestionsEnabled=false mSupportsInlineSuggestionsWithTouchExploration=false mSuppressesSpellChecker=false mShowInInputMethodPicker=true mSupportsStylusHandwriting=false mSupportsConnectionlessStylusHandwriting=false mStylusHandwritingSettingsActivityAttr=null
+        mIsDefaultResId=0x0
+        Service:
+          priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+          ServiceInfo:
+            name=com.sohu.inputmethod.sogou.SogouIME
+            packageName=com.sohu.inputmethod.sogou.chuizi
+            enabled=true exported=true directBootAware=true
+            permission=android.permission.BIND_INPUT_METHOD
+            flags=0x0
+            ApplicationInfo:
+              packageName=com.sohu.inputmethod.sogou.chuizi
+              labelRes=0x7f040000 nonLocalizedLabel=null icon=0x0 banner=0x0
+              processName=com.sohu.inputmethod.sogou.chuizi
+              taskAffinity=com.sohu.inputmethod.sogou.chuizi
+              uid=1000 flags=0x2888be4d privateFlags=0xa4101108 theme=0x0
+              requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+              sourceDir=/system/priv-app/nemu-vinput-pack/nemu-vinput-pack.apk
+              resourceDirs=[]
+              overlayPaths=[/data/resource-cache/com.android.systemui-neutral-6YrZ.frro, /data/resource-cache/com.android.systemui-accent-1gjU.frro, /data/resource-cache/com.android.systemui-dynamic-8yGG.frro]
+              seinfo=platform:privapp:targetSdkVersion=28:partition=system
+              seinfoUser=:complete
+              dataDir=/data/user/0/com.sohu.inputmethod.sogou.chuizi
+              deviceProtectedDataDir=/data/user_de/0/com.sohu.inputmethod.sogou.chuizi
+              credentialProtectedDataDir=/data/user/0/com.sohu.inputmethod.sogou.chuizi
+              sharedLibraryFiles=[/system/framework/android.test.base.jar, /system/framework/android.hidl.manager-V1.0-java.jar, /system/framework/android.hidl.base-V1.0-java.jar]
+              enabled=true minSdkVersion=28 targetSdkVersion=28 versionCode=233 targetSandboxVersion=1
+              supportsRtl=false
+              fullBackupContent=true
+              crossProfile=false
+              HiddenApiEnforcementPolicy=0
+              usesNonSdkApi=false
+              allowsPlaybackCapture=false
+              nativeHeapZeroInitialized=0
+              enableOnBackInvokedCallback=false
+              allowCrossUidActivitySwitchFromBelow=true
+              mPageSizeAppCompatFlags=0
+              createTimestamp=90262968
+        InputMethodSubtype array: count=1
+          InputMethodSubtype #0:
+            mSubtypeNameOverride= mLayoutLabelNonLocalized= mPkLanguageTag= mPkLayoutType= mSubtypeId=0 mSubtypeLocale=en_US mSubtypeLanguageTag= mSubtypeMode=keyboard mIsAuxiliary=false mOverridesImplicitlyEnabledSubtype=false mIsAsciiCapable=false mSubtypeHashCode=1802354156
+      InputMethod #1:
+        mId=com.ac/com.ime.input.InputKb mSettingsActivityName=null mLanguageSettingsActivityName=null mIsVrOnly=false mIsVirtualDeviceOnly=false mSupportsSwitchingToNextInputMethod=false mInlineSuggestionsEnabled=false mSupportsInlineSuggestionsWithTouchExploration=false mSuppressesSpellChecker=false mShowInInputMethodPicker=true mSupportsStylusHandwriting=false mSupportsConnectionlessStylusHandwriting=false mStylusHandwritingSettingsActivityAttr=null
+        mIsDefaultResId=0x0
+        Service:
+          priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+          ServiceInfo:
+            name=com.ime.input.InputKb
+            packageName=com.ac
+            labelRes=0x7f10018c nonLocalizedLabel=null icon=0x0 banner=0x0
+            processName=com.ac:enginfloat
+            enabled=true exported=true directBootAware=false
+            permission=android.permission.BIND_INPUT_METHOD
+            flags=0x0
+            ApplicationInfo:
+              name=com.cyjh.elfin.base.AppContext
+              packageName=com.ac
+              labelRes=0x7f1000cc nonLocalizedLabel=null icon=0x7f0801d3 banner=0x0
+              className=com.cyjh.elfin.base.AppContext
+              processName=com.ac
+              taskAffinity=com.ac
+              uid=10021 flags=0x38c8be44 privateFlags=0xa4001000 theme=0x7f11014b
+              requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+              sourceDir=/data/app/~~A6lGyd9a_gQrcvRcrsA0ww==/com.ac-LkZ-nNeWlgEmqN26QxUiZg==/base.apk
+              resourceDirs=[]
+              overlayPaths=[/data/resource-cache/com.android.systemui-neutral-6YrZ.frro, /data/resource-cache/com.android.systemui-accent-1gjU.frro, /data/resource-cache/com.android.systemui-dynamic-8yGG.frro]
+              seinfo=default:targetSdkVersion=26
+              seinfoUser=:complete
+              dataDir=/data/user/0/com.ac
+              deviceProtectedDataDir=/data/user_de/0/com.ac
+              credentialProtectedDataDir=/data/user/0/com.ac
+              sharedLibraryFiles=[/system/framework/android.test.base.jar, /system/framework/org.apache.http.legacy.jar]
+              enabled=true minSdkVersion=21 targetSdkVersion=26 versionCode=2024092009 targetSandboxVersion=1
+              supportsRtl=true
+              fullBackupContent=true
+              crossProfile=false
+              networkSecurityConfigRes=0x7f130004
+              HiddenApiEnforcementPolicy=2
+              usesNonSdkApi=false
+              allowsPlaybackCapture=false
+              nativeHeapZeroInitialized=0
+              enableOnBackInvokedCallback=false
+              allowCrossUidActivitySwitchFromBelow=true
+              mPageSizeAppCompatFlags=0
+              createTimestamp=90262968
+        InputMethodSubtype array: count=0
+
+Input method client state for android.view.inputmethod.InputMethodManager@b716461:
+  mFallbackInputConnection=RemoteInputConnectionImpl{connection=android.view.inputmethod.BaseInputConnection@fe37b86 mDeactivateRequested=false mServedView=null}
+  mActive=true mRestartOnNextWindowFocus=false mBindSequence=549 mCurImeId=com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME
+  mFullscreenMode=false
+  mCurMethod=com.android.internal.inputmethod.IInputMethodSession$Stub$Proxy@3229c47
+  mCurRootView=android.view.ViewRootImpl@7445c74
+  mServedView=com.android.internal.policy.DecorView{1fee59d V.E...... R....... 0,0-1280,720 aid=7}[SubSettings]
+  mServedView pos x= 0, y= 0
+  mNextServedView=com.android.internal.policy.DecorView{1fee59d V.E...... R....... 0,0-1280,720 aid=7}[SubSettings]
+  mServedConnecting=false
+  mCurrentEditorInfo:
+    inputType=0x0 imeOptions=0x0 privateImeOptions=null
+    actionLabel=null actionId=0
+    initialSelStart=-1 initialSelEnd=-1 initialToolType=0 initialCapsMode=0x0
+    hintText=null label=null
+    packageName=com.android.settings autofillId=0 fieldId=0 fieldName=null
+    hintLocales=null
+    supportedHandwritingGestureTypes=(none)
+    supportedHandwritingGesturePreviewTypes=(none)
+    isStylusHandwritingEnabled=false
+    writingToolsEnabled=true
+    contentMimeTypes=null
+  mServedInputConnection=null
+  mServedInputConnectionHandler=null
+  mCompletions=null
+  mCursorRect=Rect(0, 0 - 0, 0)
+  mCursorSelStart=0 mCursorSelEnd=0 mCursorCandStart=0 mCursorCandEnd=0
+
+Input method service state for com.sohu.inputmethod.sogou.SogouIME@6946a78:
+  mViewsCreated=false
+  mDecorViewVisible=false mDecorViewWasVisible=false mWindowVisible=false mInShowWindow=false
+  Configuration={1.0 460mcc?mnc [zh_CN_#Hans] ldltr sw480dp w853dp h480dp 240dpi lrg long land night finger -keyb/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 1280, 720) mAppBounds=Rect(0, 0 - 1280, 720) mMaxBounds=Rect(0, 0 - 1280, 720) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_90} s.8 fontWeightAdjustment=0}
+  mToken=android.os.BinderProxy@300f60
+  mInputBinding=InputBinding{android.os.BinderProxy@b5ae9a4 / uid 1000 / pid 45405}
+  mInputConnection=RemoteInputConnection{idHash=#1bda30d}
+  mStartedInputConnection=null
+  mInputStarted=true mInputViewStarted=false mCandidatesViewStarted=false
+  mInputEditorInfo:
+    inputType=0x0 imeOptions=0x0 privateImeOptions=null
+    actionLabel=null actionId=0
+    initialSelStart=-1 initialSelEnd=-1 initialToolType=0 initialCapsMode=0x0
+    hintText=null label=null
+    packageName=com.android.settings autofillId=0 fieldId=0 fieldName=null
+    hintLocales=null
+    supportedHandwritingGestureTypes=(none)
+    supportedHandwritingGesturePreviewTypes=(none)
+    isStylusHandwritingEnabled=false
+    writingToolsEnabled=true
+    contentMimeTypes=null
+  mShowInputRequested=false mLastShowInputRequested=false mShowInputFlags=0x0
+  mCandidatesVisibility=4 mFullscreenApplied=false mIsFullscreen=false mExtractViewHidden=false
+  mExtractedText: null
+  mExtractedToken=0
+  mIsInputViewShown=false mStatusIcon=0
+  Last computed insets:
+    contentTopInsets=0 visibleTopInsets=0 touchableInsets=2 touchableRegion=SkRegion()
+  mSettingsObserver=SettingsObserver{mShowImeWithHardKeyboard=2}
+  mNavigationBarController={mImeDrawsImeNavBar=false mNavigationBarFrame=null mShouldShowImeSwitcherWhenImeIsShown=true mCustomImeSwitcherVisible=false mAppearance=0x0 mDarkIntensity=0.0 mDrawLegacyNavigationBarBackground=false}

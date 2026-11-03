@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-03",
+  "change": "项目文档、安装提示、模块名称及 ZIP 内说明统一使用一键工具称呼。",
+  "checks": {
+    "only_terminology_changes_in_executable_entries": true,
+    "shell_and_build_script_syntax": true,
+    "archive_integrity": true,
+    "checksums_match": true,
+    "bundled_module_matches_standalone": true
+  },
+  "verification_scope": "文字调整及本地打包核对，未连接设备，未重跑历史模拟测试。",
+  "previous_files": [
+    {
+      "path": "dist/mumu-ime-share.zip",
+      "sha256": "cd77a142efbe6fdf969b06c7e9708bc192031a7850e1c1b325de733b340eb96d"
+    },
+    {
+      "path": "dist/MuMu-IME-Windows.zip",
+      "sha256": "caf16ec7b19833cdd468ad948063a04ac9b4df34d2575d96c82080cec73bbf7b"
+    }
+  ],
+  "files": [
+    {
+      "path": "dist/mumu-ime-share.zip",
+      "bytes": 44435406,
+      "sha256": "9e6d931ae7c8017c4ca5540c6cf604467f30ee5a1f831d62a614d17c4e9c62a0"
+    },
+    {
+      "path": "dist/MuMu-IME-Windows.zip",
+      "bytes": 44049978,
+      "sha256": "a89b4c2fdc3106804f58bc12cc50e68c624f057bbfc65234dbe2cbf2bd9217ba"
+    }
+  ]
+}

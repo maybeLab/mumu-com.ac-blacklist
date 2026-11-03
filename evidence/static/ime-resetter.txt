@@ -1,0 +1,92 @@
+CLASS Lcom/android/server/mumu/ime/MuMuImeResetter;
+ FIELD Lcom/android/server/mumu/ime/MuMuImeResetter;->TAG:Ljava/lang/String; flags=0x19
+ METHOD Lcom/android/server/mumu/ime/MuMuImeResetter;-><clinit>()V flags=0x10008 code=0x2517c0
+  0x0 type-ref Lcom/android/server/mumu/ime/MuMuImeResetter;
+  0x4 invoke Lcom/android/server/mumu/utils/TagRegistry;->register(Ljava/lang/Class;)Ljava/lang/String;
+  0xc field-ref Lcom/android/server/mumu/ime/MuMuImeResetter;->TAG:Ljava/lang/String;
+ METHOD Lcom/android/server/mumu/ime/MuMuImeResetter;->containsBuiltinIme(Ljava/lang/String;)Z flags=0x9 code=0x25171c
+  0x0 const-string ':'
+  0x4 invoke Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
+  0x1a const-string ';'
+  0x1e invoke Ljava/lang/String;->indexOf(Ljava/lang/String;)I
+  0x2c invoke Ljava/lang/String;->substring(II)Ljava/lang/String;
+  0x34 const-string 'com.sohu.inputmethod.sogou.chuizi/'
+  0x38 invoke Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+ METHOD Lcom/android/server/mumu/ime/MuMuImeResetter;->isBuiltinImeInstalled(I)Z flags=0x9 code=0x25177c
+  0x0 type-ref Landroid/content/pm/PackageManagerInternal;
+  0x4 invoke Lcom/android/server/LocalServices;->getService(Ljava/lang/Class;)Ljava/lang/Object;
+  0xc type-ref Landroid/content/pm/PackageManagerInternal;
+  0x18 const-string 'com.sohu.inputmethod.sogou.chuizi'
+  0x22 invoke Landroid/content/pm/PackageManagerInternal;->getPackageUid(Ljava/lang/String;JI)I
+ METHOD Lcom/android/server/mumu/ime/MuMuImeResetter;->resetDefaultIme(Landroid/content/Context;I)V flags=0x9 code=0x2517e4
+  0x0 const-string 'Failed to reset default IME for user '
+  0x4 const-string 'default_input_method'
+  0x8 const-string 'com.sohu.inputmethod.sogou.chuizi/com.sohu.inputmethod.sogou.SogouIME'
+  0xc invoke Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+  0x14 invoke Landroid/provider/Settings$Secure;->getStringForUser(Landroid/content/ContentResolver;Ljava/lang/String;I)Ljava/lang/String;
+  0x1c invoke Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+  0x28 field-ref Lcom/android/server/mumu/ime/MuMuImeResetter;->TAG:Ljava/lang/String;
+  0x2c type-ref Ljava/lang/StringBuilder;
+  0x30 invoke Ljava/lang/StringBuilder;-><init>()V
+  0x36 const-string 'Default IME already reset for user '
+  0x3a invoke Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  0x40 invoke Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+  0x46 invoke Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+  0x4e invoke Lcom/android/server/mumu/utils/LogUtils;->SLOGD(Ljava/lang/String;Ljava/lang/String;)V
+  0x5a invoke Lcom/android/server/mumu/ime/MuMuImeResetter;->isBuiltinImeInstalled(I)Z
+  0x66 field-ref Lcom/android/server/mumu/ime/MuMuImeResetter;->TAG:Ljava/lang/String;
+  0x6a type-ref Ljava/lang/StringBuilder;
+  0x6e invoke Ljava/lang/StringBuilder;-><init>()V
+  0x74 const-string 'Built-in IME com.sohu.inputmethod.sogou.chuizi is not installed for user '
+  0x78 invoke Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  0x7e invoke Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+  0x84 const-string ', skip resetting the default IME'
+  0x88 invoke Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  0x8e invoke Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+  0x96 invoke Lcom/android/server/mumu/utils/LogUtils;->SLOGE(Ljava/lang/String;Ljava/lang/String;)V
+  0x9e invoke Landroid/provider/Settings$Secure;->putStringForUser(Landroid/content/ContentResolver;Ljava/lang/String;Ljava/lang/String;I)Z
+  0xaa field-ref Lcom/android/server/mumu/ime/MuMuImeResetter;->TAG:Ljava/lang/String;
+  0xae type-ref Ljava/lang/StringBuilder;
+  0xb2 invoke Ljava/lang/StringBuilder;-><init>()V
+  0xb8 const-string 'Reset default IME for user '
+  0xbc invoke Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  0xc2 invoke Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+  0xc8 const-string ' from '
+  0xcc invoke Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  0xd2 invoke Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  0xd8 const-string ' to '
+  0xdc invoke Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  0xe2 invoke Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  0xe8 invoke Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+  0xf0 invoke Lcom/android/server/mumu/utils/LogUtils;->SLOGI(Ljava/lang/String;Ljava/lang/String;)V
+  0xf8 field-ref Lcom/android/server/mumu/ime/MuMuImeResetter;->TAG:Ljava/lang/String;
+  0xfc type-ref Ljava/lang/StringBuilder;
+  0x100 invoke Ljava/lang/StringBuilder;-><init>()V
+  0x106 invoke Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  0x10c invoke Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+  0x112 invoke Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+  0x11a invoke Lcom/android/server/mumu/utils/LogUtils;->SLOGE(Ljava/lang/String;Ljava/lang/String;)V
+  0x120 invoke Lcom/android/server/mumu/ime/MuMuImeResetter;->warnIfBuiltinImeDisabled(Landroid/content/ContentResolver;I)V
+  0x128 field-ref Lcom/android/server/mumu/ime/MuMuImeResetter;->TAG:Ljava/lang/String;
+  0x12c type-ref Ljava/lang/StringBuilder;
+  0x130 invoke Ljava/lang/StringBuilder;-><init>()V
+  0x136 invoke Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  0x13c invoke Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+  0x142 invoke Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+  0x14a invoke Lcom/android/server/mumu/utils/LogUtils;->SLOGE(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V
+ METHOD Lcom/android/server/mumu/ime/MuMuImeResetter;->warnIfBuiltinImeDisabled(Landroid/content/ContentResolver;I)V flags=0x9 code=0x251958
+  0x0 const-string 'enabled_input_methods'
+  0x4 invoke Landroid/provider/Settings$Secure;->getStringForUser(Landroid/content/ContentResolver;Ljava/lang/String;I)Ljava/lang/String;
+  0xc invoke Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+  0x18 invoke Lcom/android/server/mumu/ime/MuMuImeResetter;->containsBuiltinIme(Ljava/lang/String;)Z
+  0x26 field-ref Lcom/android/server/mumu/ime/MuMuImeResetter;->TAG:Ljava/lang/String;
+  0x2a type-ref Ljava/lang/StringBuilder;
+  0x2e invoke Ljava/lang/StringBuilder;-><init>()V
+  0x34 const-string 'Built-in IME is disabled for user '
+  0x38 invoke Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  0x3e invoke Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+  0x44 const-string ', the default IME reset may not take effect'
+  0x48 invoke Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  0x4e invoke Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+  0x56 invoke Lcom/android/server/mumu/utils/LogUtils;->SLOGW(Ljava/lang/String;Ljava/lang/String;)V
+DEX classes2.dex
